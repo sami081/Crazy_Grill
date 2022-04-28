@@ -1,0 +1,29 @@
+header {
+  padding: 0 20px 0 20px;
+  display: flex;
+  height: 46px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px #72160E;
+  .logo{
+    width: 24.46%;
+    height: 22.37px;
+  }
+  nav {
+    display: flex;
+    width: 5.25%;
+
+    ul {
+      width: 100%;
+      display: flex;
+      .menu-link{
+        width: 100%;
+        display: flex;
+        .icon-menu{
+          width: 100%
+        }
+      }
+    }
+
+  };
+}

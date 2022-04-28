@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  padding: 0 20px 0 20px;
+  display: flex;
+  height: 46px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px #72160E;
+}
+header .logo {
+  width: 24.46%;
+  height: 22.37px;
+}
+header nav {
+  display: flex;
+  width: 5.25%;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+}
+header nav ul .menu-link {
+  width: 100%;
+  display: flex;
+}
+header nav ul .menu-link .icon-menu {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
