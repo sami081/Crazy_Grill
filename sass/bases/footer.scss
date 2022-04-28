@@ -1,0 +1,30 @@
+footer{
+  display: flex;
+  height: 150px;
+  flex-direction: column;
+  background: #72160E;
+ align-items: center;
+ justify-content: space-evenly;
+ a{  color: #ffff;}
+  img{
+   
+    width: 30.86%;
+  }
+  .contact-social{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    .contact{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      .icon{
+        width: 1em;
+        height: 1rem;
+      }
+      a{
+        color: #ffff;
+      }
+    }
+  }
+}

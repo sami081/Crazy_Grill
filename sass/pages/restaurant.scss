@@ -1,0 +1,98 @@
+.restaurant{
+  background: rgba(252, 231, 192, 1);
+  display: flex;
+  flex-direction: column;
+  
+  h2{
+    text-align: center;
+    color: rgba(114, 22, 14, 1);
+  }
+  p{
+    color: rgba(114, 22, 14, 1);
+    text-align: center;
+  }
+  .all-card{
+    justify-content: space-evenly;
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(114, 22, 14, 1);
+    .card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 74.87%;
+    // height: 379px;
+    img{
+      position: relative;
+      border-radius: 10px;
+      height: 240px;
+      width: 100%;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+    }
+    }
+    .information {
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+      background: rgba(252, 231, 192, 1);
+      color: rgba(114, 22, 14, 1);
+      width: 79.35%;
+       height: 79px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius:  0 0 10px 10px;
+      justify-content: space-around ;
+    }
+  }
+  .div-hourly{
+    display: flex;
+   
+    align-content: space-around;
+
+    img{
+      width: 31.97%;
+      object-fit: cover;
+      height: 473px;
+      margin-top: 60px;
+      margin-left: 26px;
+     margin-bottom: 60px;
+    }
+    .hourly{
+      display: flex;
+      flex-direction: column;
+       width: 70%;
+      // justify-content: space-around;
+      h2{
+        margin-top: 65px;
+        text-align: center;
+        width: 100%;
+       }
+      .hourly-week{
+        margin-top: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.68);
+        display: flex;
+        flex-direction: column;
+        background: rgba(114, 22, 14, 1);
+        justify-content: space-around;
+        height:374px;
+        // align-items: center;
+        transform: translateX(-20%);
+        h3{
+          color: rgba(255, 255, 255, 1) ;
+          margin-left: 21px;
+        }
+        p{
+          display: flex;
+          align-self: center;
+          justify-content: center;
+          background:rgba(252, 231, 192, 1) ;
+         width: 10em;
+         border-radius: 5px;
+         text-align: center;
+        }
+      }
+    }
+  }
+}
