@@ -114,22 +114,22 @@ header nav ul {
     display: none;
   }
   .banner .link {
-    border: solid 1px #72160E;
+    border: solid 1px #72160e;
     margin-right: 5px;
     border-radius: 10px;
     height: 68px;
     width: 34.9%;
-    background: #FFFFFF;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     align-self: flex-end;
-    color: #72160E;
+    color: #72160e;
   }
   .banner .link a {
     padding-right: 18px;
-    color: #72160E;
+    color: #72160e;
     font-size: 20px;
   }
   .banner .title-reservation {
@@ -140,15 +140,15 @@ header nav ul {
     align-items: center;
   }
   .banner .title-reservation .title {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     font-size: 32px;
   }
   .banner .title-reservation .reservation {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 32px;
-    background: #F39F07;
+    background: #f39f07;
     border-radius: 10px;
     width: 44.49%;
     height: 48px;
@@ -169,6 +169,7 @@ header nav ul {
   }
   .banner .img-banner {
     width: 100%;
+    height: 100%;
   }
   .banner .title-reservation {
     position: relative;
@@ -184,16 +185,16 @@ header nav ul {
   }
   .banner .title-reservation .reservation {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 32px;
-    background: #F39F07;
+    background: #f39f07;
     border-radius: 10px;
     width: 44.49%;
     height: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 582px) {
