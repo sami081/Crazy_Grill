@@ -16,7 +16,10 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
 
@@ -36,7 +39,7 @@ header nav ul {
     justify-content: space-between;
     padding: 0 20px 0 20px;
     height: 46px;
-    border-top: solid 1px #72160E;
+    border-top: solid 1px #72160e;
   }
   header .logo {
     width: 24.46%;
@@ -92,7 +95,7 @@ header nav ul {
     width: 5em;
   }
   header nav ul li .accueil {
-    border: solid 1px #72160E;
+    border: solid 1px #72160e;
     border-radius: 5px;
   }
 }
@@ -296,7 +299,7 @@ header nav ul {
     display: flex;
     height: 150px;
     flex-direction: column;
-    background: #72160E;
+    background: #72160e;
     align-items: center;
     justify-content: space-evenly;
   }
