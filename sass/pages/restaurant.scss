@@ -4,12 +4,20 @@
   display: flex;
   flex-direction: column;
   h2 {
+    padding-top: 15px;
     text-align: center;
     color: rgba(114, 22, 14, 1);
   }
   p {
+    padding: 5px;
     color: rgba(114, 22, 14, 1);
     text-align: center;
+  }
+}
+.decouvert {
+  background: rgba(114, 22, 14, 1);
+  h2 {
+    color: white;
   }
 }
 @media (max-width: 582px) {
@@ -66,27 +74,29 @@
         flex-direction: column;
         width: 70%;
         // justify-content: space-around;
-        h2 {
+        .h2 {
           margin-top: 65px;
-          text-align: center;
+          text-align: left;
           width: 100%;
+          margin: 20px;
+          margin: 0;
         }
         .hourly-week-all {
-          margin-top: 10px;
+          margin-top: 40px;
           border-radius: 5px;
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.68);
           display: flex;
           flex-direction: column;
           background: rgba(114, 22, 14, 1);
           justify-content: space-around;
-          height: 374px;
+          height: 393px;
           // align-items: center;
           transform: translateX(-20%);
           .hourly-week {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            height: 100px;
+            height: 33%;
           }
           h3 {
             color: rgba(255, 255, 255, 1);
@@ -97,7 +107,6 @@
             align-self: center;
             justify-content: center;
             background: rgba(252, 231, 192, 1);
-            width: 10em;
             border-radius: 5px;
             text-align: center;
           }
@@ -173,11 +182,14 @@
       justify-content: space-evenly;
       left: -150px;
       position: relative;
-      h2{
-        text-align: right;
+      h2 {
+        
+    margin-left: 65%;
+    width: 6em;
       }
       .hourly-week-all {
-       width: 180%;
+        padding: 15%;
+        width: 180%;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
@@ -189,7 +201,7 @@
           display: flex;
           align-items: center;
           // justify-content: space-around;
-          h3{
+          h3 {
             margin-left: 50px;
           }
         }
@@ -202,17 +214,17 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          color: #72160E;
+          color: #72160e;
         }
-        .p-d{
+        .p-d {
           margin-left: 90px;
         }
-        .p-vend{
+        .p-vend {
           margin-left: 95px;
         }
-        .p-weekend{
+        .p-weekend {
           margin-left: 90px;
-          width: 25em;
+          width: 27em;
         }
       }
     }
