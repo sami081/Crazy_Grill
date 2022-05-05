@@ -107,7 +107,7 @@ header nav ul a {
   .banner {
     background-image: url("./ressources/images/img/barbecue-banniere.jpg");
     width: 100%;
-    height: 561px;
+    height: 562px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -392,15 +392,15 @@ header nav ul a {
     width: 6em;
   }
   .div-hourly .hourly .hourly-week-all {
-    padding: 15%;
-    width: 180%;
+    padding: 10%;
+    width: 165%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     background: #72160e;
     color: white;
-    height: 239px;
-    justify-content: space-evenly;
+    height: 50%;
+    justify-content: space-between;
   }
   .div-hourly .hourly .hourly-week-all .hourly-week {
     display: flex;

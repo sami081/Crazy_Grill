@@ -183,20 +183,19 @@
       left: -150px;
       position: relative;
       h2 {
-        
-    margin-left: 65%;
-    width: 6em;
+        margin-left: 65%;
+        width: 6em;
       }
       .hourly-week-all {
-        padding: 15%;
-        width: 180%;
+        padding: 10%;
+        width: 165%;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         background: #72160e;
         color: white;
-        height: 239px;
-        justify-content: space-evenly;
+        height: 50%;
+        justify-content: space-between;
         .hourly-week {
           display: flex;
           align-items: center;
