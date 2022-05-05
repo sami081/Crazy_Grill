@@ -13,7 +13,9 @@ footer{
 }
 @media (max-width: 582px) {
   footer{
-   
+    img {
+      width: 30.86%;
+    }
       a{
         text-align: center;
       }
@@ -28,9 +30,7 @@ footer{
     a {
       color: #ffff;
     }
-    img {
-      width: 30.86%;
-    }
+    
     .contact-social {
       display: flex;
       width: 100%;
