@@ -47,7 +47,7 @@ header nav ul a {
   }
   header .logo {
     width: 24.46%;
-    height: 22.37px;
+    height: 49%;
   }
   header .menu-d {
     display: none;
@@ -75,7 +75,7 @@ header nav ul a {
   }
   header .logo {
     width: 20.74%;
-    height: 57, 13px;
+    height: 49%;
   }
   header #menu {
     display: none;
@@ -110,7 +110,7 @@ header nav ul a {
     height: 562px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-top: 5px;
     flex-direction: column;
   }
@@ -118,7 +118,8 @@ header nav ul a {
     display: none;
   }
   .banner .disparition {
-    display: none;
+    display: flex;
+    visibility: hidden;
   }
   .banner .link {
     border: solid 1px #72160e;
@@ -132,6 +133,7 @@ header nav ul a {
     justify-content: center;
     align-items: flex-end;
     align-self: flex-end;
+    visibility: visible;
     color: #72160e;
   }
   .banner .link a {
@@ -150,6 +152,7 @@ header nav ul a {
     color: #ffffff;
     text-align: center;
     font-size: 32px;
+    padding: 4%;
   }
   .banner .title-reservation .reservation {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
@@ -181,7 +184,7 @@ header nav ul a {
   }
   .banner .title-reservation {
     position: relative;
-    top: -270px;
+    top: -310px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,6 +193,7 @@ header nav ul a {
     color: white;
     background: rgba(0, 0, 0, 0.39);
     border-radius: 10px;
+    margin-top: 95px;
   }
   .banner .title-reservation .reservation {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
@@ -209,9 +213,9 @@ header nav ul a {
   background: rgb(252, 231, 192);
   display: flex;
   flex-direction: column;
+  padding: 2%;
 }
 .restaurant h2 {
-  padding-top: 15px;
   text-align: center;
   color: rgb(114, 22, 14);
 }
@@ -278,6 +282,7 @@ header nav ul a {
     display: flex;
     flex-direction: column;
     width: 70%;
+    margin: 20% 0 0 5%;
   }
   .restaurant .div-hourly .hourly .h2 {
     margin-top: 65px;
@@ -294,18 +299,19 @@ header nav ul a {
     flex-direction: column;
     background: rgb(114, 22, 14);
     justify-content: space-around;
-    height: 393px;
+    height: 70%;
     transform: translateX(-20%);
   }
   .restaurant .div-hourly .hourly .hourly-week-all .hourly-week {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 33%;
   }
   .restaurant .div-hourly .hourly .hourly-week-all h3 {
     color: rgb(255, 255, 255);
-    margin-left: 21px;
+    text-align: center;
+    font-size: 1.7em;
   }
   .restaurant .div-hourly .hourly .hourly-week-all p {
     display: flex;
@@ -314,6 +320,8 @@ header nav ul a {
     background: rgb(252, 231, 192);
     border-radius: 5px;
     text-align: center;
+    width: 80%;
+    font-size: 1.5em;
   }
 }
 @media (min-width: 583px) {
