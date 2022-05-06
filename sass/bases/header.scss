@@ -9,7 +9,7 @@ header {
     display: flex;
     ul {
       display: flex;
-      a{
+      a {
         color: #72160e;
       }
     }
@@ -55,7 +55,7 @@ header {
 @media (min-width: 583px) {
   header {
     justify-content: space-around;
-   padding: 20px;
+    padding: 20px;
     width: 100%;
     // margin-left: 139px;
     // margin-right: 146px;
