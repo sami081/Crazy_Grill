@@ -114,7 +114,6 @@ header nav ul a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5px;
     flex-direction: column;
   }
   .banner .img-banner {
@@ -123,10 +122,13 @@ header nav ul a {
   .banner .disparition {
     display: flex;
     visibility: hidden;
+    height: 68px;
+    margin-top: 55px;
   }
   .banner .link {
     border: solid 1px #72160e;
     margin-right: 5px;
+    margin-top: 54px;
     border-radius: 10px;
     height: 68px;
     width: 34.9%;
@@ -176,11 +178,14 @@ header nav ul a {
   }
 
   .banner {
+    background-image: url("./ressources/images/img/barbecue-banniere.jpg");
     width: 100%;
     height: 410px;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.6);
+    background-size: cover;
   }
   .banner .img-banner {
+    display: none;
     width: 100%;
     height: 100%;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.6);
