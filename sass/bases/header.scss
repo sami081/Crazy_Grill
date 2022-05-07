@@ -27,8 +27,8 @@ header {
 
     border-top: solid 1px #72160e;
     .logo {
-      width: 24.46%;
-      height: 49%;
+      width: 5.126em;
+      height: 1.392em;
       margin-left: 15px;
     }
     .menu-d {
@@ -53,6 +53,18 @@ header {
     }
   }
 }
+ @media (min-width: 583px) and (max-width: 1000px){
+   header{
+     height: 58.26px;
+     padding: 0px 10px 0px 10px;
+  }
+}
+@media (min-width: 1001px) {
+  header {
+    padding: 5px 15px 5px 15px;
+  }
+  
+}
 
 //version desktop
 @media (min-width: 583px) {
@@ -63,8 +75,8 @@ header {
     // margin-left: 139px;
     // margin-right: 146px;
     .logo {
-      width: 20.74%;
-      height: 49%;
+      width: 5.126em;
+      height: 1.392em
     }
     #menu {
       display: none;

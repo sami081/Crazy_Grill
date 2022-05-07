@@ -1,7 +1,23 @@
+@font-face {
+  font-family: "cairo-semi-bold";
+  src: url("./ressources/font-family/Cairo-SemiBold.ttf");
+}
+@font-face {
+  font-family: "cairo-bold";
+  src: url("./ressources/font-family/Cairo-Bold.ttf");
+}
+*{
+  font-family:"cairo-semi-bold" ;
+}
+strong{
+  font-family: "cairo-bold";
+  font-weight: 900;
+}
 @media (max-width: 582px) {
   .div-title {
     .title {
-      font-size: 3.8em;
+      font-family: "cairo-bold";
+      font-size: 2em;
     }
     .text {
       font-size: 2em;
@@ -10,20 +26,22 @@
   .banner {
     .title-reservation {
       .reservation {
-        font-size: 2em;
+        font-size: 1.6em;
       }
     }
   }
   h2 {
-    font-size: 1.9em;
+    font-size: 1.8em;
+    font-family: "cairo-bold";
   }
   h3 {
-    font-size: 1.25em;
+    font-family: "cairo-bold";
+    font-size: 1.6em;
   }
   p {
-    font-size: 1.3em;
+    font-size: 1em;
   }
   a {
-    font-size: 1.4em;
+    font-size: 1.25em;
   }
 }

@@ -44,11 +44,6 @@ h1 {
   font-size: 1.9em;
 }
 
-@media (max-width: 582px) {
-  h1 {
-    font-size: 3.8em;
-  }
-}
 header {
   display: flex;
   align-items: center;
@@ -74,8 +69,8 @@ header nav ul a {
     border-top: solid 1px #72160e;
   }
   header .logo {
-    width: 24.46%;
-    height: 49%;
+    width: 5.126em;
+    height: 1.392em;
     margin-left: 15px;
   }
   header .menu-d {
@@ -97,14 +92,25 @@ header nav ul a {
     width: 100%;
   }
 }
+@media (min-width: 583px) and (max-width: 1000px) {
+  header {
+    height: 58.26px;
+    padding: 0px 10px 0px 10px;
+  }
+}
+@media (min-width: 1001px) {
+  header {
+    padding: 5px 15px 5px 15px;
+  }
+}
 @media (min-width: 583px) {
   header {
     justify-content: space-between;
     width: 100%;
   }
   header .logo {
-    width: 20.74%;
-    height: 49%;
+    width: 5.126em;
+    height: 1.392em;
   }
   header #menu {
     display: none;
@@ -168,10 +174,11 @@ header nav ul a {
   .banner {
     background-image: url("./ressources/images/img/barbecue-banniere.jpg");
     width: 100%;
-    height: 562px;
+    height: 462px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-size: cover;
     flex-direction: column;
   }
   .banner .img-banner {
@@ -180,10 +187,11 @@ header nav ul a {
   .banner .title-reservation {
     display: flex;
     flex-direction: column;
-    height: 80%;
-    justify-content: space-around;
+    height: 100%;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 50px 0;
   }
   .banner .title-reservation .div-title {
     display: flex;
@@ -215,7 +223,7 @@ header nav ul a {
   }
 
   .banner {
-    background-image: url("./ressources/images/img/barbecue-banniere2.jpg");
+    background-image: url("./ressources/images/img/barbecue-banniere3.png");
     width: 100%;
     height: 410px;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.6);
@@ -279,7 +287,6 @@ header nav ul a {
   color: rgb(114, 22, 14);
 }
 .restaurant p {
-  padding: 5px;
   color: rgb(114, 22, 14);
   text-align: center;
 }
@@ -289,13 +296,18 @@ header nav ul a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 1287px;
 }
 .decouvert h2 {
   color: white;
 }
 
 @media (max-width: 582px) {
+  .restaurant .title2 {
+    padding: 14px 5px 5px 5px;
+  }
+  .restaurant .text-R {
+    padding: 5px;
+  }
   .restaurant .all-card {
     justify-content: space-between;
     height: 1150px;
@@ -317,6 +329,7 @@ header nav ul a {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
     position: relative;
     z-index: 1;
+    object-fit: cover;
   }
   .restaurant .all-card .information {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
@@ -362,7 +375,6 @@ header nav ul a {
   }
   .restaurant .div-hourly .hourly .hourly-week-all {
     padding-top: 10px;
-    margin-top: 40px;
     border-radius: 5px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.68);
     display: flex;
@@ -377,10 +389,12 @@ header nav ul a {
     flex-direction: column;
     justify-content: space-evenly;
     height: 33%;
+    margin: 0 18px 0 21px;
   }
   .restaurant .div-hourly .hourly .hourly-week-all h3 {
     color: rgb(255, 255, 255);
-    text-align: center;
+    font-size: 1.25em;
+    font-family: "cairo-semi-bold";
   }
   .restaurant .div-hourly .hourly .hourly-week-all p {
     display: flex;
@@ -389,7 +403,9 @@ header nav ul a {
     background: rgb(252, 231, 192);
     border-radius: 5px;
     text-align: center;
-    width: 80%;
+    width: 100%;
+    font-family: "cairo-bold";
+    font-size: 1em;
   }
 }
 @media (min-width: 583px) {
@@ -527,6 +543,7 @@ footer {
   }
 
   .footer {
+    margin-top: 20px;
     height: 150px;
     flex-direction: column;
     align-items: center;
@@ -584,32 +601,52 @@ footer {
     height: 1em;
   }
 }
+@font-face {
+  font-family: "cairo-semi-bold";
+  src: url("./ressources/font-family/Cairo-SemiBold.ttf");
+}
+@font-face {
+  font-family: "cairo-bold";
+  src: url("./ressources/font-family/Cairo-Bold.ttf");
+}
+* {
+  font-family: "cairo-semi-bold";
+}
+
+strong {
+  font-family: "cairo-bold";
+  font-weight: 900;
+}
+
 @media (max-width: 582px) {
   .div-title .title {
-    font-size: 3.8em;
+    font-family: "cairo-bold";
+    font-size: 2em;
   }
   .div-title .text {
     font-size: 2em;
   }
 
   .banner .title-reservation .reservation {
-    font-size: 2em;
+    font-size: 1.6em;
   }
 
   h2 {
-    font-size: 1.9em;
+    font-size: 1.8em;
+    font-family: "cairo-bold";
   }
 
   h3 {
-    font-size: 1.25em;
+    font-family: "cairo-bold";
+    font-size: 1.6em;
   }
 
   p {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   a {
-    font-size: 1.4em;
+    font-size: 1.25em;
   }
 }
 

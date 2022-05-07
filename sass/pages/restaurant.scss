@@ -3,13 +3,12 @@
   background: rgba(252, 231, 192, 1);
   display: flex;
   flex-direction: column;
- 
+
   h2 {
     text-align: center;
     color: rgba(114, 22, 14, 1);
   }
   p {
-    padding: 5px;
     color: rgba(114, 22, 14, 1);
     text-align: center;
   }
@@ -17,17 +16,21 @@
 .decouvert {
   background: rgba(114, 22, 14, 1);
   display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 1287px;
+  flex-direction: column;
+  justify-content: space-around;
+  // height: 1287px;
   h2 {
     color: white;
-    
   }
 }
 @media (max-width: 582px) {
   .restaurant {
-    
+    .title2 {
+      padding: 14px 5px 5px 5px;
+    }
+    .text-R {
+      padding: 5px;
+    }
     .all-card {
       justify-content: space-between;
       height: 1150px;
@@ -42,13 +45,13 @@
         width: 74.87%;
         // height: 379px;
         img {
-          
           border-radius: 10px;
           height: 240px;
           width: 100%;
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
           position: relative;
           z-index: 1;
+          object-fit: cover;
         }
       }
       .information {
@@ -64,10 +67,9 @@
         justify-content: center;
         transform: translateY(-20px);
         z-index: 0;
-        h3{
+        h3 {
           margin: 10px;
         }
-        
       }
     }
     .div-hourly {
@@ -98,7 +100,6 @@
         }
         .hourly-week-all {
           padding-top: 10px;
-          margin-top: 40px;
           border-radius: 5px;
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.68);
           display: flex;
@@ -113,11 +114,13 @@
             flex-direction: column;
             justify-content: space-evenly;
             height: 33%;
+            margin: 0 18px 0 21px
           }
           h3 {
             color: rgba(255, 255, 255, 1);
-            text-align: center;
             
+            font-size: 1.25em;
+            font-family: 'cairo-semi-bold';
           }
           p {
             display: flex;
@@ -126,8 +129,9 @@
             background: rgba(252, 231, 192, 1);
             border-radius: 5px;
             text-align: center;
-            width: 80%;
-           
+            width: 100%;
+            font-family: "cairo-bold";
+            font-size: 1em;
           }
         }
       }
@@ -162,7 +166,7 @@
         border-radius: 8px;
         box-shadow: #090909db 0px 3px 6px;
         position: relative;
-      
+
         top: 20px;
       }
       .information {
