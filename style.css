@@ -297,6 +297,7 @@ header nav ul a {
   flex-direction: column;
   justify-content: space-evenly;
   height: 1255px;
+  padding-bottom: 10px;
 }
 .decouvert h2 {
   color: white;
@@ -621,7 +622,7 @@ strong {
 
 @media (max-width: 582px) {
   .div-title .title {
-    font-family: "cairo-bold";
+    font-family: "cairo-semi-bold";
     font-size: 2em;
   }
   .div-title .text {
