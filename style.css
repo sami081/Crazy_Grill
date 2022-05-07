@@ -33,11 +33,11 @@ a {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-family: "cairo-bold";
 }
 
 h2 {
-  font-size: 1.7em;
+  font-family: "cairo-bold";
 }
 
 h1 {
@@ -256,7 +256,6 @@ header nav ul a {
     width: 80%;
   }
   .banner .title-reservation .div-title .title {
-    font-size: 4.5em;
     width: 100%;
     text-align: center;
   }
@@ -283,6 +282,7 @@ header nav ul a {
   flex-direction: column;
 }
 .restaurant h2 {
+  font-family: "cairo-bold";
   text-align: center;
   color: rgb(114, 22, 14);
 }
@@ -296,7 +296,6 @@ header nav ul a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 1255px;
   padding-bottom: 10px;
 }
 .decouvert h2 {
@@ -304,6 +303,10 @@ header nav ul a {
 }
 
 @media (max-width: 582px) {
+  .decouvert {
+    height: 1255px;
+  }
+
   .restaurant .title2 {
     padding: 14px 5px 0px 5px;
   }
@@ -422,8 +425,16 @@ header nav ul a {
   }
 }
 @media (min-width: 583px) {
+  .restaurant .title2 {
+    padding-top: 16px;
+  }
+  .restaurant .text-R {
+    padding: 5px 5px 18px;
+  }
+
   .decouvert {
-    height: 574px;
+    padding-top: 16px;
+    padding-bottom: 35px;
     background: #72160e;
     display: flex;
     flex-direction: column;
@@ -438,10 +449,12 @@ header nav ul a {
     justify-content: space-around;
     background: #72160e;
     align-items: center;
+    flex-wrap: wrap;
+    height: 750px;
   }
   .all-card .card {
     height: 350px;
-    width: 27.48%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -452,6 +465,7 @@ header nav ul a {
     border-radius: 8px;
     box-shadow: rgba(9, 9, 9, 0.8588235294) 0px 3px 6px;
     position: relative;
+    object-fit: cover;
     top: 20px;
   }
   .all-card .card .information {
@@ -466,6 +480,7 @@ header nav ul a {
     justify-content: center;
   }
   .all-card .card .information h3 {
+    color: rgb(114, 22, 14);
     margin-bottom: 10px;
   }
   .all-card .card .information p {
@@ -474,66 +489,64 @@ header nav ul a {
 
   .div-hourly {
     display: flex;
-    margin-left: 50px;
-    margin-top: 70px;
-    margin-bottom: 50px;
   }
   .div-hourly img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35px;
     width: 29.5%;
     height: 405px;
     object-fit: cover;
     border: solid 1px #95989a;
   }
+  .div-hourly .friday {
+    width: 65%;
+  }
+  .div-hourly .week-end {
+    width: 100%;
+    justify-content: space-around !important;
+  }
+  .div-hourly .week-end p {
+    width: 14em !important;
+  }
   .div-hourly .hourly {
+    margin-top: 40px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    justify-content: space-evenly;
-    left: -150px;
+    width: 70%;
+    justify-content: space-around;
+    transform: translateX(-20%);
     position: relative;
   }
   .div-hourly .hourly h2 {
-    margin-left: 65%;
-    width: 6em;
+    text-align: center;
   }
   .div-hourly .hourly .hourly-week-all {
-    padding: 10%;
-    width: 165%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     background: #72160e;
     color: white;
-    height: 50%;
-    justify-content: space-between;
+    height: 239px;
+    justify-content: space-around;
+    padding: 31px 21px 35px 23px;
   }
   .div-hourly .hourly .hourly-week-all .hourly-week {
     display: flex;
     align-items: center;
-  }
-  .div-hourly .hourly .hourly-week-all .hourly-week h3 {
-    margin-left: 50px;
+    justify-content: space-around;
   }
   .div-hourly .hourly .hourly-week-all p {
-    margin-left: 70px;
+    width: 6em;
+    font-family: "cairo-bold";
     background: #fce7c0;
-    width: 10em;
     height: 1.5em;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #72160e;
-  }
-  .div-hourly .hourly .hourly-week-all .p-d {
-    margin-left: 90px;
-  }
-  .div-hourly .hourly .hourly-week-all .p-vend {
-    margin-left: 95px;
-  }
-  .div-hourly .hourly .hourly-week-all .p-weekend {
-    margin-left: 90px;
-    width: 27em;
   }
 }
 footer {
@@ -592,6 +605,7 @@ footer {
   }
 
   .footer {
+    flex-direction: column;
     justify-content: space-around;
     padding-top: 25px;
     align-items: center;
@@ -602,7 +616,9 @@ footer {
     height: 10%;
   }
   .footer .contact-social {
-    width: 45%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -662,6 +678,19 @@ strong {
 
   a {
     font-size: 1.25em;
+  }
+}
+@media (min-width: 583px) {
+  .div-title .title {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
   }
 }
 

@@ -5,6 +5,7 @@
   flex-direction: column;
 
   h2 {
+    font-family: "cairo-bold";
     text-align: center;
     color: rgba(114, 22, 14, 1);
   }
@@ -18,13 +19,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-   height: 1255px;
-   padding-bottom: 10px;
+
+  padding-bottom: 10px;
   h2 {
     color: white;
   }
 }
 @media (max-width: 582px) {
+  .decouvert {
+    height: 1255px;
+  }
   .restaurant {
     .title2 {
       padding: 14px 5px 0px 5px;
@@ -117,22 +121,22 @@
             flex-direction: column;
             justify-content: space-between;
             height: 125px;
-            margin: 0 18px 0 21px
+            margin: 0 18px 0 21px;
           }
-          .friday{
+          .friday {
             height: 95px;
             justify-content: space-around;
           }
-          .week-end{
+          .week-end {
             justify-content: space-around;
             height: 95px;
             transform: translateY(-10px);
           }
           h3 {
             color: rgba(255, 255, 255, 1);
-            
+
             font-size: 1.25em;
-            font-family: 'cairo-semi-bold';
+            font-family: "cairo-semi-bold";
           }
           p {
             display: flex;
@@ -151,8 +155,19 @@
   }
 }
 @media (min-width: 583px) {
+  .restaurant {
+    .title2 {
+      padding-top: 16px;
+    
+    }
+    .text-R {
+      padding: 5px 5px 18px;
+    }
+  }
   .decouvert {
-    height: 574px;
+    padding-top: 16px;
+    padding-bottom: 35px;
+    // height: 674px;
     background: #72160e;
     display: flex;
     flex-direction: column;
@@ -166,9 +181,11 @@
     justify-content: space-around;
     background: #72160e;
     align-items: center;
+    flex-wrap: wrap;
+    height: 750px;
     .card {
       height: 350px;
-      width: 27.48%;
+      width: 40%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -178,6 +195,7 @@
         border-radius: 8px;
         box-shadow: #090909db 0px 3px 6px;
         position: relative;
+        object-fit: cover;
 
         top: 20px;
       }
@@ -192,6 +210,7 @@
         align-items: center;
         justify-content: center;
         h3 {
+          color: rgb(114, 22, 14);
           margin-bottom: 10px;
         }
         p {
@@ -202,48 +221,65 @@
   }
   .div-hourly {
     display: flex;
-    margin-left: 50px;
-    margin-top: 70px;
-    margin-bottom: 50px;
+
+    // margin-top: 70px;
+
     img {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 35px;
       width: 29.5%;
       height: 405px;
       object-fit: cover;
       border: solid 1px #95989a;
     }
+    .friday{
+      width: 65%;
+    }
+    .week-end{
+      width:100%;
+      justify-content: space-around !important;
+     
+      p{ 
+        width: 14em !important;
+      }
+    }
     .hourly {
+      margin-top: 40px;
+      height: 400px;
       display: flex;
       flex-direction: column;
-      width: 40%;
-      justify-content: space-evenly;
-      left: -150px;
+      width: 70%;
+      justify-content: space-around;
+      transform: translateX(-20%);
       position: relative;
       h2 {
-        margin-left: 65%;
-        width: 6em;
+        text-align: center;
       }
       .hourly-week-all {
-        padding: 10%;
-        width: 165%;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         background: #72160e;
         color: white;
-        height: 50%;
-        justify-content: space-between;
+        height: 239px;
+        justify-content: space-around;
+        padding: 31px 21px 35px 23px;
+
         .hourly-week {
           display: flex;
           align-items: center;
-          // justify-content: space-around;
+          justify-content: space-around;
           h3 {
-            margin-left: 50px;
+            // margin-left: 50px;
           }
         }
         p {
-          margin-left: 70px;
+          width: 6em;
+          font-family: "cairo-bold";
+          // margin-left: 70px;
           background: #fce7c0;
-          width: 10em;
+          // width: 10em;
           height: 1.5em;
           border-radius: 5px;
           display: flex;
@@ -252,14 +288,14 @@
           color: #72160e;
         }
         .p-d {
-          margin-left: 90px;
+          // margin-left: 90px;
         }
         .p-vend {
-          margin-left: 95px;
+          // margin-left: 95px;
         }
         .p-weekend {
-          margin-left: 90px;
-          width: 27em;
+          // margin-left: 90px;
+          // width: 27em;
         }
       }
     }
