@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  // height: 1287px;
+   height: 1255px;
   h2 {
     color: white;
   }
@@ -26,10 +26,10 @@
 @media (max-width: 582px) {
   .restaurant {
     .title2 {
-      padding: 14px 5px 5px 5px;
+      padding: 14px 5px 0px 5px;
     }
     .text-R {
-      padding: 5px;
+      padding: 5px 5px 16px;
     }
     .all-card {
       justify-content: space-between;

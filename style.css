@@ -296,6 +296,7 @@ header nav ul a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  height: 1255px;
 }
 .decouvert h2 {
   color: white;
@@ -303,10 +304,10 @@ header nav ul a {
 
 @media (max-width: 582px) {
   .restaurant .title2 {
-    padding: 14px 5px 5px 5px;
+    padding: 14px 5px 0px 5px;
   }
   .restaurant .text-R {
-    padding: 5px;
+    padding: 5px 5px 16px;
   }
   .restaurant .all-card {
     justify-content: space-between;
