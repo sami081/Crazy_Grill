@@ -19,3 +19,23 @@ h3,
 p {
   margin: 0;
 }
+p{
+  font-size: 1.3em;
+}
+a{
+  font-size: 1.4em;
+}
+h3{
+  font-size: 1.5em;
+}
+h2{
+  font-size: 1.7em;
+}
+h1{
+  font-size: 1.9em;
+}
+@media (max-width: 582px) {
+  h1{
+    font-size: 3.8em;
+  }
+}

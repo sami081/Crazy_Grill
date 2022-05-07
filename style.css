@@ -24,12 +24,37 @@ p {
   margin: 0;
 }
 
+p {
+  font-size: 1.3em;
+}
+
+a {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
+@media (max-width: 582px) {
+  h1 {
+    font-size: 3.8em;
+  }
+}
 header {
   display: flex;
   align-items: center;
   position: fixed;
   background: white;
-  z-index: 1;
+  z-index: 2;
 }
 header nav {
   display: flex;
@@ -44,19 +69,21 @@ header nav ul a {
 @media (max-width: 582px) {
   header {
     justify-content: space-between;
-    padding: 0 20px 0 20px;
     height: 46px;
+    width: 100%;
     border-top: solid 1px #72160e;
   }
   header .logo {
     width: 24.46%;
     height: 49%;
+    margin-left: 15px;
   }
   header .menu-d {
     display: none;
   }
   header nav {
     width: 5.25%;
+    margin-right: 15px;
   }
   header nav ul {
     width: 100%;
@@ -72,8 +99,7 @@ header nav ul a {
 }
 @media (min-width: 583px) {
   header {
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
     width: 100%;
   }
   header .logo {
@@ -82,9 +108,6 @@ header nav ul a {
   }
   header #menu {
     display: none;
-  }
-  header nav {
-    width: 21.55%;
   }
   header nav ul {
     width: 100%;
@@ -107,6 +130,41 @@ header nav ul a {
   }
 }
 @media (max-width: 582px) {
+  .titleReservation2 {
+    margin-top: 122px;
+  }
+
+  .disparition {
+    display: flex;
+    visibility: hidden;
+    height: 68px;
+    margin-top: 55px;
+  }
+
+  .link {
+    border: solid 1px #72160e;
+    margin-right: 5px;
+    margin-top: 49px;
+    border-radius: 10px;
+    height: 68px;
+    width: 34.9%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: flex-end;
+    visibility: visible;
+    z-index: 1;
+    position: fixed;
+    color: #72160e;
+  }
+  .link a {
+    padding-right: 18px;
+    color: #72160e;
+    font-size: 20px;
+  }
+
   .banner {
     background-image: url("./ressources/images/img/barbecue-banniere.jpg");
     width: 100%;
@@ -119,50 +177,29 @@ header nav ul a {
   .banner .img-banner {
     display: none;
   }
-  .banner .disparition {
-    display: flex;
-    visibility: hidden;
-    height: 68px;
-    margin-top: 55px;
-  }
-  .banner .link {
-    border: solid 1px #72160e;
-    margin-right: 5px;
-    margin-top: 54px;
-    border-radius: 10px;
-    height: 68px;
-    width: 34.9%;
-    background: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    align-self: flex-end;
-    visibility: visible;
-    color: #72160e;
-  }
-  .banner .link a {
-    padding-right: 18px;
-    color: #72160e;
-    font-size: 20px;
-  }
   .banner .title-reservation {
     display: flex;
     flex-direction: column;
     height: 80%;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
   }
-  .banner .title-reservation .title {
+  .banner .title-reservation .div-title {
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
+    width: 100%;
+  }
+  .banner .title-reservation .div-title .title {
     text-align: center;
-    font-size: 32px;
-    padding: 4%;
+  }
+  .banner .title-reservation .div-title .text {
+    text-align: center;
   }
   .banner .title-reservation .reservation {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
     color: #ffffff;
-    font-size: 32px;
     background: #f39f07;
     border-radius: 10px;
     width: 44.49%;
@@ -178,11 +215,15 @@ header nav ul a {
   }
 
   .banner {
-    background-image: url("./ressources/images/img/barbecue-banniere.jpg");
+    background-image: url("./ressources/images/img/barbecue-banniere2.jpg");
     width: 100%;
     height: 410px;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.6);
     background-size: cover;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    object-fit: cover;
   }
   .banner .img-banner {
     display: none;
@@ -192,16 +233,28 @@ header nav ul a {
   }
   .banner .title-reservation {
     position: relative;
-    top: -310px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 60%;
+    justify-content: space-around;
   }
-  .banner .title-reservation .title {
+  .banner .title-reservation .div-title {
+    display: flex;
+    flex-direction: column;
     color: white;
     background: rgba(0, 0, 0, 0.39);
     border-radius: 10px;
-    margin-top: 95px;
+    width: 80%;
+  }
+  .banner .title-reservation .div-title .title {
+    font-size: 4.5em;
+    width: 100%;
+    text-align: center;
+  }
+  .banner .title-reservation .div-title .text {
+    text-align: center;
+    font-size: 3.5em;
   }
   .banner .title-reservation .reservation {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
@@ -214,14 +267,12 @@ header nav ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
   }
 }
 .restaurant {
   background: rgb(252, 231, 192);
   display: flex;
   flex-direction: column;
-  padding: 2%;
 }
 .restaurant h2 {
   text-align: center;
@@ -235,6 +286,10 @@ header nav ul a {
 
 .decouvert {
   background: rgb(114, 22, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 1287px;
 }
 .decouvert h2 {
   color: white;
@@ -242,7 +297,7 @@ header nav ul a {
 
 @media (max-width: 582px) {
   .restaurant .all-card {
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 1150px;
     display: flex;
     flex-direction: column;
@@ -261,18 +316,24 @@ header nav ul a {
     width: 100%;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
     position: relative;
+    z-index: 1;
   }
   .restaurant .all-card .information {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
     background: rgb(252, 231, 192);
     color: rgb(114, 22, 14);
     width: 79.35%;
-    height: 79px;
+    height: 129px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 10px 10px;
-    justify-content: space-around;
+    justify-content: center;
+    transform: translateY(-20px);
+    z-index: 0;
+  }
+  .restaurant .all-card .information h3 {
+    margin: 10px;
   }
   .restaurant .div-hourly {
     display: flex;
@@ -290,7 +351,7 @@ header nav ul a {
     display: flex;
     flex-direction: column;
     width: 70%;
-    margin: 20% 0 0 5%;
+    margin: 50px 0 0 5%;
   }
   .restaurant .div-hourly .hourly .h2 {
     margin-top: 65px;
@@ -300,6 +361,7 @@ header nav ul a {
     margin: 0;
   }
   .restaurant .div-hourly .hourly .hourly-week-all {
+    padding-top: 10px;
     margin-top: 40px;
     border-radius: 5px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.68);
@@ -319,7 +381,6 @@ header nav ul a {
   .restaurant .div-hourly .hourly .hourly-week-all h3 {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 1.7em;
   }
   .restaurant .div-hourly .hourly .hourly-week-all p {
     display: flex;
@@ -329,7 +390,6 @@ header nav ul a {
     border-radius: 5px;
     text-align: center;
     width: 80%;
-    font-size: 1.5em;
   }
 }
 @media (min-width: 583px) {
@@ -522,6 +582,34 @@ footer {
   .footer .contact-social .contact .icon {
     width: 1em;
     height: 1em;
+  }
+}
+@media (max-width: 582px) {
+  .div-title .title {
+    font-size: 3.8em;
+  }
+  .div-title .text {
+    font-size: 2em;
+  }
+
+  .banner .title-reservation .reservation {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.9em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  a {
+    font-size: 1.4em;
   }
 }
 

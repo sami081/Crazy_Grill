@@ -4,7 +4,7 @@ header {
   align-items: center;
   position: fixed;
   background: white;
-  z-index: 1;
+  z-index: 2;
   nav {
     display: flex;
     ul {
@@ -20,20 +20,23 @@ header {
   header {
     justify-content: space-between;
 
-    padding: 0 20px 0 20px;
+    
 
     height: 46px;
+    width: 100%;
 
     border-top: solid 1px #72160e;
     .logo {
       width: 24.46%;
       height: 49%;
+      margin-left: 15px;
     }
     .menu-d {
       display: none;
     }
     nav {
       width: 5.25%;
+      margin-right: 15px;
 
       ul {
         width: 100%;
@@ -54,8 +57,8 @@ header {
 //version desktop
 @media (min-width: 583px) {
   header {
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
+    
     width: 100%;
     // margin-left: 139px;
     // margin-right: 146px;
@@ -67,7 +70,7 @@ header {
       display: none;
     }
     nav {
-      width: 21.55%;
+     
       ul {
         width: 100%;
         justify-content: space-between;
