@@ -1,4 +1,4 @@
-footer{
+footer {
   padding-bottom: 15px;
   background: #72160e;
   display: flex;
@@ -8,35 +8,33 @@ footer{
   // }
 }
 .footer {
-  
   display: flex;
 }
 @media (max-width: 582px) {
-  footer{
+  footer {
     img {
       width: 30.86%;
     }
-      a{
-        text-align: center;
-      }
-    
+    a {
+      text-align: center;
+    }
   }
   .footer {
     margin-top: 20px;
     height: 150px;
     flex-direction: column;
-padding: 14px 0;
+    padding: 14px 0;
     align-items: center;
     justify-content: space-evenly;
     a {
       color: #ffff;
     }
-    
+
     .contact-social {
       display: flex;
       width: 100%;
       justify-content: space-evenly;
-      padding: 14px 0;
+      padding: 16px 0;
       .contact {
         display: flex;
         flex-direction: column;
@@ -54,7 +52,7 @@ padding: 14px 0;
   }
 }
 @media (min-width: 583px) {
-  footer{
+  footer {
     align-items: center;
   }
   .footer {
@@ -66,15 +64,15 @@ padding: 14px 0;
       width: 25%;
       height: 10%;
     }
-    .contact-social{
+    .contact-social {
       width: 45%;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      .contact{
+      .contact {
         display: flex;
         flex-direction: column;
-        .icon{
+        .icon {
           width: 1em;
           height: 1em;
         }
