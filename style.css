@@ -303,7 +303,7 @@ header nav ul a {
 
 @media (max-width: 582px) {
   .restaurant .title2 {
-    padding: 14px 5px 5px 5px;
+    margin-top: 10px;
   }
   .restaurant .text-R {
     padding: 5px;
