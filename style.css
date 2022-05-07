@@ -626,7 +626,7 @@ strong {
 @media (max-width: 582px) {
   .div-title .title {
     font-family: "cairo-semi-bold";
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .div-title .text {
     font-size: 2em;
