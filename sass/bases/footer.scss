@@ -84,3 +84,12 @@ footer {
     }
   }
 }
+@media (min-width: 1000px) {
+  .footer{
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    .contact-social{
+      width: 55%;
+    }
+  }
+}

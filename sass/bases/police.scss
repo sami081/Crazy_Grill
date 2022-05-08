@@ -58,3 +58,22 @@ strong{
     font-size: 1em;
   }
 }
+@media (min-width: 1000px) {
+  .div-title{
+    .title{
+      font-size: 4em;
+    }
+  }
+  h2{
+    font-size: 2.2em;
+  }
+  h3{
+    font-size: 1.8em;
+  }
+  p{
+    font-size: 1.4em;
+  }
+  a{
+    font-size: 1.5em;
+  }
+}

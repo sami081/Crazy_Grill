@@ -26,6 +26,12 @@
   }
 }
 @media (max-width: 582px) {
+  .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+  }
   .decouvert {
     height: 1255px;
   }
@@ -155,10 +161,16 @@
   }
 }
 @media (min-width: 583px) {
+  .test {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    height: 65%;
+    width: 15em;
+  }
   .restaurant {
     .title2 {
       padding-top: 16px;
-    
     }
     .text-R {
       padding: 5px 5px 18px;
@@ -184,7 +196,7 @@
     flex-wrap: wrap;
     height: 750px;
     .card {
-      height: 350px;
+      height: 50%;
       width: 40%;
       display: flex;
       flex-direction: column;
@@ -203,18 +215,16 @@
         border: solid 1px #707070;
         border-radius: 10px;
         width: 84.94%;
-        height: 40%;
+        height: 30%;
         background: #fce7c0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         h3 {
           color: rgb(114, 22, 14);
-          margin-bottom: 10px;
         }
         p {
-          margin-top: 5px;
         }
       }
     }
@@ -233,15 +243,16 @@
       object-fit: cover;
       border: solid 1px #95989a;
     }
-    .friday{
-      width: 65%;
+    .friday {
+      p {
+      }
     }
-    .week-end{
-      width:100%;
+    .week-end {
+      //width: 100%;
       justify-content: space-around !important;
-     
-      p{ 
-        width: 14em !important;
+
+      p {
+        width: 16em !important;
       }
     }
     .hourly {
@@ -271,7 +282,8 @@
           align-items: center;
           justify-content: space-around;
           h3 {
-            // margin-left: 50px;
+            font-family: "cairo-semi-bold" !important;
+            width: 6em;
           }
         }
         p {
@@ -291,7 +303,7 @@
           // margin-left: 90px;
         }
         .p-vend {
-          // margin-left: 95px;
+          //   transform: translateX(18%);
         }
         .p-weekend {
           // margin-left: 90px;
@@ -299,5 +311,39 @@
         }
       }
     }
+  }
+}
+@media (min-width: 1000px) {
+  .test {
+    width: 20em !important;
+  }
+  .all-card {
+    padding: 20px 0;
+    height: 350px !important;
+    .card {
+      height: 100%;
+      width: 27.5%;
+      img {
+        height: 60% !important;
+      }
+      .information {
+        height: 40% !important;
+      }
+    }
+  }
+}
+@media (min-width: 1300px) {
+  .all-card {
+    height: 450px !important;
+  }
+}
+@media (min-width: 1700px) {
+  .all-card {
+    height: 500px !important;
+  }
+}
+@media (min-width: 2000px) {
+  .all-card {
+    height: 600px !important;
   }
 }
