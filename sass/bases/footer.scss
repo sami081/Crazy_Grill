@@ -63,8 +63,8 @@ footer {
     align-items: center;
     width: 100%;
     img {
-      width: 25%;
-      height: 10%;
+      width: 8em;
+      //height: 10%;
     }
     .contact-social {
       margin-bottom: 25px;
@@ -85,10 +85,10 @@ footer {
   }
 }
 @media (min-width: 1000px) {
-  .footer{
+  .footer {
     flex-direction: row;
     justify-content: space-evenly !important;
-    .contact-social{
+    .contact-social {
       width: 55%;
     }
   }
