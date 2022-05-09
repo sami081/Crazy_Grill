@@ -225,7 +225,7 @@ header nav ul a {
   .banner {
     background-image: url("./ressources/images/img/barbecue-banniere3.jpg");
     width: 100%;
-    height: 410px;
+    height: 770px;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.6);
     background-size: cover;
     flex-direction: column;
@@ -266,11 +266,11 @@ header nav ul a {
   .banner .title-reservation .reservation {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
     color: #ffffff;
-    font-size: 32px;
+    font-size: 1.8em;
     background: #f39f07;
     border-radius: 10px;
-    width: 44.49%;
-    height: 48px;
+    width: 8em;
+    height: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -509,13 +509,11 @@ header nav ul a {
     object-fit: cover;
     border: solid 1px #95989a;
   }
-  .div-hourly .week-end {
-    justify-content: space-around !important;
-  }
   .div-hourly .week-end p {
     width: 16em !important;
   }
   .div-hourly .hourly {
+    max-width: 900px;
     margin-top: 40px;
     height: 400px;
     display: flex;
@@ -541,7 +539,7 @@ header nav ul a {
   .div-hourly .hourly .hourly-week-all .hourly-week {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .div-hourly .hourly .hourly-week-all .hourly-week h3 {
     font-family: "cairo-semi-bold" !important;
@@ -748,7 +746,7 @@ strong {
 }
 @media (min-width: 1000px) {
   .div-title .title {
-    font-size: 4em;
+    font-size: 6em;
   }
 
   h2 {
