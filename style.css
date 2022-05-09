@@ -657,8 +657,7 @@ footer {
     width: 100%;
   }
   .footer img {
-    width: 25%;
-    height: 10%;
+    width: 8em;
   }
   .footer .contact-social {
     margin-bottom: 25px;
