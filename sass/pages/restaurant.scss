@@ -249,7 +249,6 @@
     }
     .week-end {
       //width: 100%;
-      justify-content: space-around !important;
 
       p {
         width: 16em !important;
@@ -280,7 +279,7 @@
         .hourly-week {
           display: flex;
           align-items: center;
-          justify-content: space-around;
+          justify-content: space-evenly;
           h3 {
             font-family: "cairo-semi-bold" !important;
             width: 6em;

@@ -509,9 +509,6 @@ header nav ul a {
     object-fit: cover;
     border: solid 1px #95989a;
   }
-  .div-hourly .week-end {
-    justify-content: space-around !important;
-  }
   .div-hourly .week-end p {
     width: 16em !important;
   }
@@ -541,7 +538,7 @@ header nav ul a {
   .div-hourly .hourly .hourly-week-all .hourly-week {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .div-hourly .hourly .hourly-week-all .hourly-week h3 {
     font-family: "cairo-semi-bold" !important;
