@@ -7,6 +7,7 @@ header {
   z-index: 2;
   nav {
     display: flex;
+    width: 35%;
     ul {
       display: flex;
       a {
@@ -26,6 +27,7 @@ header {
     width: 100%;
 
     border-top: solid 1px #72160e;
+    border-bottom: solid 1px #72160e;;
     .logo {
       width: 5.126em;
       height: 1.392em;
@@ -85,7 +87,7 @@ header {
      
       ul {
         width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
         li {
           display: flex;
           align-items: center;

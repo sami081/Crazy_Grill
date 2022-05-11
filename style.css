@@ -53,6 +53,7 @@ header {
 }
 header nav {
   display: flex;
+  width: 35%;
 }
 header nav ul {
   display: flex;
@@ -67,6 +68,7 @@ header nav ul a {
     height: 46px;
     width: 100%;
     border-top: solid 1px #72160e;
+    border-bottom: solid 1px #72160e;
   }
   header .logo {
     width: 5.126em;
@@ -117,7 +119,7 @@ header nav ul a {
   }
   header nav ul {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   header nav ul li {
     display: flex;
@@ -763,6 +765,270 @@ strong {
   a {
     font-size: 1.5em;
   }
+}
+@media (max-width: 582px) {
+  .titleReservation2 {
+    margin-top: 121.7px !important;
+  }
+
+  .disparition {
+    display: flex;
+    visibility: hidden;
+    height: 68px;
+    margin-top: 84.5px;
+  }
+
+  .link {
+    border: solid 1px #72160e;
+    margin-right: 5px;
+    margin-top: 49px;
+    border-radius: 10px;
+    height: 68px;
+    width: 34.9%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: flex-end;
+    visibility: visible;
+    z-index: 2;
+    position: fixed;
+    color: #72160e;
+  }
+  .link a {
+    padding-right: 18px;
+    color: #72160e;
+    font-size: 20px;
+  }
+
+  .banner-carte {
+    background-image: url("./ressources/images/img/banner-carte.jpg");
+    width: 100%;
+    height: 359px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    flex-direction: column;
+  }
+  .banner-carte .img-banner-carte {
+    display: none;
+  }
+  .banner-carte .title-reservation {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+  }
+  .banner-carte .title-reservation .div-title {
+    border: #707070 1px solid;
+    background: rgba(0, 0, 0, 0.1882352941);
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 90%;
+  }
+  .banner-carte .title-reservation .div-title .title {
+    text-align: center;
+  }
+  .banner-carte .title-reservation .div-title .text {
+    text-align: center;
+  }
+  .banner-carte .title-reservation .reservation {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    background: #f39f07;
+    border-radius: 10px;
+    width: 44.49%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 583px) {
+  .link {
+    display: none;
+  }
+
+  .banner-carte {
+    background-image: url("./ressources/images/img/barbecue-banniere3.jpg");
+    width: 100%;
+    height: 770px;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    object-fit: cover;
+  }
+  .banner-carte .img-banner-carte {
+    display: none;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.6);
+  }
+  .banner-carte .title-reservation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    justify-content: space-around;
+  }
+  .banner-carte .title-reservation .div-title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+    width: 80%;
+  }
+  .banner-carte .title-reservation .div-title .title {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-carte .title-reservation .div-title .text {
+    text-align: center;
+    font-size: 3.5em;
+  }
+  .banner-carte .title-reservation .reservation {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-size: 1.8em;
+    background: #f39f07;
+    border-radius: 10px;
+    width: 8em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.menu {
+  background: #FCE7C0;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.menu h2 {
+  color: #72160E;
+  text-align: center;
+}
+.menu .div-menu {
+  margin: 20px 30px;
+}
+.menu .div-menu h3 {
+  text-align: right;
+  font-size: 1.1em;
+}
+.menu .div-menu h4 {
+  text-align: right;
+  margin: 0;
+}
+.menu .trait {
+  width: 10%;
+  border-top: solid 0.02px #72160E;
+  margin: 25px 0;
+}
+.menu .div-menu-bis {
+  margin: 20px 30px;
+}
+.menu .div-menu-bis h3 {
+  font-size: 1.1em;
+}
+.menu .div-menu-bis h4 {
+  margin: 0;
+}
+.menu .starter {
+  background: #72160E;
+  width: 100%;
+  border: solid 1px #707070;
+}
+.menu .starter h2 {
+  color: #FCE7C0;
+}
+.menu .starter .bloc-starter {
+  display: flex;
+}
+.menu .starter .bloc-starter img {
+  width: 31.97%;
+  object-fit: cover;
+  height: 368px;
+  margin-top: 60px;
+  margin-left: 26px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  border: solid #FFFFFF 1px;
+}
+.menu .starter .bloc-starter .div-starter {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6784313725);
+  background: #FCE7C0;
+  border-radius: 10px;
+  color: #72160E;
+  height: 281px;
+  width: 54.65%;
+  transform: translateX(-20%);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu .starter .bloc-starter .div-starter h3 {
+  font-size: 1em;
+  text-align: left;
+  width: 9em;
+  margin-bottom: 10px;
+}
+.menu .starter .bloc-starter .div-starter h4 {
+  margin: 0;
+  width: 10em;
+  text-align-last: left;
+  margin-bottom: 10px;
+}
+.menu .dishes {
+  background: #FCE7C0;
+}
+.menu .dishes .bloc-dishes {
+  display: flex;
+}
+.menu .dishes .bloc-dishes .div-dishes {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.6784313725);
+  background: #72160E;
+  border-radius: 10px;
+  color: #FCE7C0;
+  height: 281px;
+  width: 54.65%;
+  transform: translateX(20%);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu .dishes .bloc-dishes .div-dishes h3 {
+  font-size: 1.1em;
+  text-align: right;
+  width: 9em;
+  margin-bottom: 10px;
+}
+.menu .dishes .bloc-dishes .div-dishes h4 {
+  margin-bottom: 10px;
+  width: 10em;
+  margin: 0;
+  text-align: right;
+}
+.menu .dishes .bloc-dishes img {
+  width: 31.5%;
+  object-fit: cover;
+  height: 368px;
+  border-radius: 5px;
+  border: solid #FFFFFF 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
