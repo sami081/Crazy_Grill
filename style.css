@@ -915,12 +915,14 @@ strong {
   flex-direction: column;
   align-items: center;
   display: flex;
+  color: #72160E;
 }
 .menu h2 {
   color: #72160E;
   text-align: center;
 }
 .menu .div-menu {
+  color: #72160E;
   margin: 20px 30px;
 }
 .menu .div-menu h3 {
@@ -946,11 +948,15 @@ strong {
   margin: 0;
 }
 .menu .starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background: #72160E;
   width: 100%;
   border: solid 1px #707070;
 }
 .menu .starter h2 {
+  margin-top: 15px;
   color: #FCE7C0;
 }
 .menu .starter .bloc-starter {
@@ -983,17 +989,20 @@ strong {
 .menu .starter .bloc-starter .div-starter h3 {
   font-size: 1em;
   text-align: left;
-  width: 9em;
+  width: 90%;
   margin-bottom: 10px;
 }
 .menu .starter .bloc-starter .div-starter h4 {
   margin: 0;
-  width: 10em;
+  width: 90%;
   text-align-last: left;
   margin-bottom: 10px;
 }
 .menu .dishes {
   background: #FCE7C0;
+}
+.menu .dishes h2 {
+  margin-top: 15px;
 }
 .menu .dishes .bloc-dishes {
   display: flex;
@@ -1006,7 +1015,7 @@ strong {
   height: 281px;
   width: 54.65%;
   transform: translateX(20%);
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1015,12 +1024,12 @@ strong {
 .menu .dishes .bloc-dishes .div-dishes h3 {
   font-size: 1.1em;
   text-align: right;
-  width: 9em;
+  width: 90%;
   margin-bottom: 10px;
 }
 .menu .dishes .bloc-dishes .div-dishes h4 {
   margin-bottom: 10px;
-  width: 10em;
+  width: 90%;
   margin: 0;
   text-align: right;
 }
@@ -1030,6 +1039,8 @@ strong {
   height: 368px;
   border-radius: 5px;
   border: solid #FFFFFF 1px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
