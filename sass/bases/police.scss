@@ -6,10 +6,10 @@
   font-family: "cairo-bold";
   src: url("./ressources/font-family/Cairo-Bold.ttf");
 }
-*{
-  font-family:"cairo-semi-bold" ;
+* {
+  font-family: "cairo-semi-bold";
 }
-strong{
+strong {
   font-family: "cairo-bold";
   font-weight: 900;
 }
@@ -17,7 +17,7 @@ strong{
   .div-title {
     .title {
       font-family: "cairo-semi-bold";
-      font-size: 2.5em;
+      font-size: 2.3em;
     }
     .text {
       font-size: 2em;
@@ -46,34 +46,34 @@ strong{
   }
 }
 @media (min-width: 583px) {
-  .div-title{
-    .title{
+  .div-title {
+    .title {
       font-size: 3em;
     }
   }
-  h3{
+  h3 {
     font-size: 1.2em;
   }
-  p{
+  p {
     font-size: 1em;
   }
 }
 @media (min-width: 1000px) {
-  .div-title{
-    .title{
+  .div-title {
+    .title {
       font-size: 6em;
     }
   }
-  h2{
+  h2 {
     font-size: 2.2em;
   }
-  h3{
+  h3 {
     font-size: 1.8em;
   }
-  p{
+  p {
     font-size: 1.4em;
   }
-  a{
+  a {
     font-size: 1.5em;
   }
 }

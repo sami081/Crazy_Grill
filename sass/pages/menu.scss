@@ -14,10 +14,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .first{
+    .first {
       display: flex;
-    flex-direction: column;
-    align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
   }
   .div-menu {
@@ -27,13 +27,13 @@
       display: flex;
       text-align: right;
       font-size: 1.1em;
-      span{
+      span {
         font-family: "cairo-bold";
       }
-      .name{
-order: 3;
+      .name {
+        order: 3;
       }
-      .price{
+      .price {
         order: -1;
       }
     }
@@ -52,7 +52,7 @@ order: 3;
     h3 {
       //  text-align: left;
       font-size: 1.1em;
-      span{
+      span {
         font-family: "cairo-bold";
       }
     }
