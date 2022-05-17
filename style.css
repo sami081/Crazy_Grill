@@ -916,19 +916,40 @@ strong {
   align-items: center;
   display: flex;
   color: #72160e;
+  padding-bottom: 15px;
 }
 .menu h2 {
   margin-top: 15px;
   color: #72160e;
   text-align: center;
 }
+.menu .all-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu .all-menu .first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .menu .div-menu {
   color: #72160e;
   margin: 20px 30px;
 }
 .menu .div-menu h3 {
+  display: flex;
   text-align: right;
   font-size: 1.1em;
+}
+.menu .div-menu h3 span {
+  font-family: "cairo-bold";
+}
+.menu .div-menu h3 .name {
+  order: 3;
+}
+.menu .div-menu h3 .price {
+  order: -1;
 }
 .menu .div-menu h4 {
   text-align: right;
@@ -944,6 +965,9 @@ strong {
 }
 .menu .div-menu-bis h3 {
   font-size: 1.1em;
+}
+.menu .div-menu-bis h3 span {
+  font-family: "cairo-bold";
 }
 .menu .div-menu-bis h4 {
   margin: 0;
@@ -991,12 +1015,12 @@ strong {
 .menu .starter .bloc-starter .div-starter h3 {
   font-size: 1em;
   text-align: left;
-  width: 90%;
+  width: 80%;
   margin-bottom: 10px;
 }
 .menu .starter .bloc-starter .div-starter h4 {
   margin: 0;
-  width: 90%;
+  width: 80%;
   text-align-last: left;
   margin-bottom: 10px;
 }
