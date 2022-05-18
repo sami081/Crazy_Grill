@@ -717,7 +717,7 @@ strong {
 
   h2 {
     font-size: 1.8em;
-    font-family: "cairo-bold";
+    font-family: "cairo-semi-bold";
   }
 
   h3 {
@@ -816,6 +816,7 @@ strong {
     align-items: center;
     justify-content: space-between;
     background-size: cover;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.68);
     flex-direction: column;
   }
   .banner-carte .img-banner-carte {
@@ -992,7 +993,7 @@ strong {
   display: flex;
 }
 .menu .starter .bloc-starter img {
-  width: 31.97%;
+  width: 34.6%;
   object-fit: cover;
   height: 368px;
   margin-top: 20px;
@@ -1007,7 +1008,7 @@ strong {
   border-radius: 10px;
   color: #72160e;
   height: 281px;
-  width: 54.65%;
+  width: 55.41%;
   transform: translateX(-20%);
   margin-top: 70px;
   display: flex;
