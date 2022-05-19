@@ -246,20 +246,22 @@ header nav ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60%;
-    justify-content: space-around;
+    height: 50%;
+    justify-content: space-between;
   }
   .banner .title-reservation .div-title {
     display: flex;
-    flex-direction: column;
     color: white;
     background: rgba(0, 0, 0, 0.39);
     border-radius: 10px;
     width: 80%;
+    height: 50%;
+    align-items: center;
   }
   .banner .title-reservation .div-title .title {
     width: 100%;
     text-align: center;
+    font-size: 5em;
   }
   .banner .title-reservation .div-title .text {
     text-align: center;
@@ -276,6 +278,11 @@ header nav ul a {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media only screen and (min-width: 583px) and (max-width: 1024px) {
+  .title {
+    font-size: 3.3em !important;
   }
 }
 .restaurant {
@@ -722,7 +729,7 @@ strong {
 
   h3 {
     font-family: "cairo-bold";
-    font-size: 1.6em;
+    font-size: 1em;
   }
 
   p {
@@ -1086,7 +1093,8 @@ strong {
 }
 @media (min-width: 501px) {
   .menu .trait {
-    height: 100px;
+    height: 50px;
+    margin-left: 8%;
   }
   .menu .title1 {
     font-size: 1.8em;
@@ -1115,7 +1123,7 @@ strong {
     order: -1;
   }
   .menu .div-menu-bis h3 {
-    font-size: 1.8em;
+    font-size: 1em;
     display: flex;
   }
   .menu .div-menu-bis h3 .name {
@@ -1134,6 +1142,39 @@ strong {
   }
   .menu .til4 {
     text-align: left !important;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 1001px) {
+  .all-menu .div-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 45%;
+  }
+  .all-menu .div-menu h3 {
+    text-align: right;
+  }
+  .all-menu .div-menu-bis {
+    width: 45%;
+    margin: 0 !important;
+  }
+  .all-menu .trait {
+    margin: 0 !important;
+  }
+  .all-menu h3 {
+    font-size: 0.9em;
+  }
+  .all-menu h4 {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 1002px) {
+  .menu .trait {
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.9em !important;
   }
 }
 

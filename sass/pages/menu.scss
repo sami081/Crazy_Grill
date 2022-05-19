@@ -181,7 +181,8 @@
 @media (min-width: 501px) {
   .menu {
     .trait {
-      height: 100px;
+      height: 50px;
+      margin-left: 8%;
       
     }
     .title1 {
@@ -218,7 +219,7 @@
     }
     .div-menu-bis {
       h3 {
-        font-size: 1.8em;
+        font-size: 1em;
         display: flex;
         .name {
           order: 2;
@@ -239,5 +240,41 @@
     .til4{
       text-align: left !important;
     }
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 1001px) {
+  .all-menu{
+  .div-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 45%;
+    h3{
+      text-align: right;
+    }
+    
+  }
+  .div-menu-bis{
+    width: 45%;
+    margin: 0 !important;
+  }
+  .trait {
+    margin: 0 !important;
+  }
+  h3{
+    font-size: 0.9em;
+  }
+  h4{
+    font-size: 0.8em;
+  }
+}}
+@media only screen and (min-width: 1002px){
+  .menu{
+    .trait{
+      margin: 0;
+    }
+  }
+  h3{
+    font-size: 1.9em !important;
   }
 }

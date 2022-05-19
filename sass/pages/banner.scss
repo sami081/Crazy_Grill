@@ -107,18 +107,22 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 60%;
-      justify-content: space-around;
+      height: 50%;
+
+      justify-content: space-between;
       .div-title {
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
         color: #ffff;
         background: rgba(0, 0, 0, 0.39);
         border-radius: 10px;
         width: 80%;
+        height: 50%;
+        align-items: center;
         .title {
           width: 100%;
           text-align: center;
+          font-size: 5em;
         }
         .text {
           text-align: center;
@@ -140,5 +144,9 @@
     }
   }
 }
-@media (min-width: 1001px) {
+@media only screen and (min-width: 583px) and (max-width: 1024px){
+  .title{
+    font-size: 3.3em !important;
+  }
+
 }
