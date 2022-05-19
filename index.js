@@ -14,3 +14,8 @@ menu.addEventListener("click", () => {
   // reservation.classList.toggle("reservation2")
   titleReservation.classList.toggle("titleReservation2")
 });
+
+
+for (let i = 0; i<10; i++){
+  console.log(i);
+}
