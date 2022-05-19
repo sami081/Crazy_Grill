@@ -14,8 +14,9 @@ menu.addEventListener("click", () => {
   // reservation.classList.toggle("reservation2")
   titleReservation.classList.toggle("titleReservation2")
 });
-
-
-for (let i = 0; i<10; i++){
-  console.log(i);
+let lo = []
+let te = ["sami", "bilel", "marion", "constantine"]
+for (let i = 0; i<te.length; i++){
+  lo.push(te[i].length);
+  console.log(lo);
 }

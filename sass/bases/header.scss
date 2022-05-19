@@ -94,8 +94,10 @@ header {
         width: 100%;
         justify-content: space-around;
         li {
+          width:40%;
           display: flex;
           align-items: center;
+          justify-content: center;
           a {
             display: flex;
             justify-content: center;
@@ -107,6 +109,10 @@ header {
             border: solid 1px #72160e;
             border-radius: 5px;
           }
+        }
+        .trait {
+          border-left: solid 0.02px #72160E;
+          width: 0%;
         }
       }
     }

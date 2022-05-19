@@ -126,8 +126,10 @@ header nav ul a {
     justify-content: space-around;
   }
   header nav ul li {
+    width: 40%;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   header nav ul li a {
     display: flex;
@@ -139,6 +141,10 @@ header nav ul a {
   header nav ul li .accueil {
     border: solid 1px #72160e;
     border-radius: 5px;
+  }
+  header nav ul .trait {
+    border-left: solid 0.02px #72160E;
+    width: 0%;
   }
 }
 @media (max-width: 582px) {
@@ -160,6 +166,7 @@ header nav ul a {
     border-radius: 10px;
     height: 68px;
     width: 34.9%;
+    max-width: 130px;
     background: #ffffff;
     display: flex;
     flex-direction: column;
@@ -1189,7 +1196,11 @@ strong {
   }
 
   h3 {
-    font-size: 1.9em !important;
+    font-size: 1.5em !important;
+  }
+
+  h4 {
+    font-size: 1.3em !important;
   }
 }
 
