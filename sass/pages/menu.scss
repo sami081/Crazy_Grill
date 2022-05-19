@@ -181,7 +181,8 @@
 @media (min-width: 501px) {
   .menu {
     .trait {
-      height: 50px;
+      height: 100px;
+      
     }
     .title1 {
       font-size: 1.8em;
@@ -204,6 +205,39 @@
     }
     h4 {
       font-size: 1.4em;
+    }
+    .div-menu {
+      h3 {
+        .price {
+          order: 2;
+        }
+        .name {
+          order: -1;
+        }
+      }
+    }
+    .div-menu-bis {
+      h3 {
+        font-size: 1.8em;
+        display: flex;
+        .name {
+          order: 2;
+        }
+        .price {
+          order: -1;
+        }
+      }
+    }
+    .t1,
+    .t3,
+    .t4 {
+      display: none;
+    }
+    .t2{
+       transform: translateY(-50px);
+    }
+    .til4{
+      text-align: left !important;
     }
   }
 }

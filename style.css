@@ -1086,7 +1086,7 @@ strong {
 }
 @media (min-width: 501px) {
   .menu .trait {
-    height: 50px;
+    height: 100px;
   }
   .menu .title1 {
     font-size: 1.8em;
@@ -1107,6 +1107,33 @@ strong {
   }
   .menu h4 {
     font-size: 1.4em;
+  }
+  .menu .div-menu h3 .price {
+    order: 2;
+  }
+  .menu .div-menu h3 .name {
+    order: -1;
+  }
+  .menu .div-menu-bis h3 {
+    font-size: 1.8em;
+    display: flex;
+  }
+  .menu .div-menu-bis h3 .name {
+    order: 2;
+  }
+  .menu .div-menu-bis h3 .price {
+    order: -1;
+  }
+  .menu .t1,
+.menu .t3,
+.menu .t4 {
+    display: none;
+  }
+  .menu .t2 {
+    transform: translateY(-50px);
+  }
+  .menu .til4 {
+    text-align: left !important;
   }
 }
 
