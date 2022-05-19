@@ -81,6 +81,7 @@
         h3 {
           margin: 10px;
         }
+       
       }
     }
     .div-hourly {
@@ -144,7 +145,7 @@
             font-size: 1.25em;
             font-family: "cairo-semi-bold";
           }
-          p {
+          h4 {
             display: flex;
             align-self: center;
             justify-content: center;
@@ -162,6 +163,7 @@
 }
 @media (min-width: 583px) {
   .test {
+    align-items: center;
     display: flex;
     flex-direction: row !important;
     justify-content: space-between;
@@ -224,7 +226,9 @@
         h3 {
           color: rgb(114, 22, 14);
         }
-        p {
+        h4{
+          color: rgb(114, 22, 14);
+          margin: 0 
         }
       }
     }
@@ -286,7 +290,8 @@
             width: 6em;
           }
         }
-        p {
+        h4 {
+          margin: 0;
           width: 6em;
           font-family: "cairo-bold";
           // margin-left: 70px;

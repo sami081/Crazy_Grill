@@ -432,7 +432,7 @@ header nav ul a {
     font-size: 1.25em;
     font-family: "cairo-semi-bold";
   }
-  .restaurant .div-hourly .hourly .hourly-week-all p {
+  .restaurant .div-hourly .hourly .hourly-week-all h4 {
     display: flex;
     align-self: center;
     justify-content: center;
@@ -446,6 +446,7 @@ header nav ul a {
 }
 @media (min-width: 583px) {
   .test {
+    align-items: center;
     display: flex;
     flex-direction: row !important;
     justify-content: space-between;
@@ -510,6 +511,11 @@ header nav ul a {
   .all-card .card .information h3 {
     color: rgb(114, 22, 14);
   }
+  .all-card .card .information h4 {
+    color: rgb(114, 22, 14);
+    margin: 0;
+  }
+
   .div-hourly {
     display: flex;
   }
@@ -558,7 +564,8 @@ header nav ul a {
     font-family: "cairo-semi-bold" !important;
     width: 6em;
   }
-  .div-hourly .hourly .hourly-week-all p {
+  .div-hourly .hourly .hourly-week-all h4 {
+    margin: 0;
     width: 6em;
     font-family: "cairo-bold";
     background: #fce7c0;
@@ -734,6 +741,10 @@ strong {
   h3 {
     font-family: "cairo-bold";
     font-size: 1em;
+  }
+
+  h4 {
+    color: rgb(114, 22, 14);
   }
 
   p {
