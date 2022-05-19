@@ -5,6 +5,11 @@ header {
   position: fixed;
   background: white;
   z-index: 2;
+  div{
+    width: 50%;
+    display: flex;
+
+  }
   nav {
     display: flex;
     width: 35%;
@@ -71,7 +76,7 @@ header {
 //version desktop
 @media (min-width: 583px) {
   header {
-    justify-content: space-between;
+    justify-content: space-around;
     
     width: 100%;
     // margin-left: 139px;
