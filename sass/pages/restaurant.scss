@@ -259,7 +259,7 @@
       }
     }
     .hourly {
-      max-width: 900px;
+      // max-width: 900px;
       margin-top: 40px;
       height: 400px;
       display: flex;
@@ -350,5 +350,19 @@
 @media (min-width: 2000px) {
   .all-card {
     height: 600px !important;
+  }
+}
+@media (min-width: 1800px){
+  .div-hourly{
+    height: 600px;
+    img{  
+      height: 85% !important;
+    }
+    .hourly{
+      height: 80% !important;
+    }
+    .hourly-week-all{
+      height: 75% !important;
+    }
   }
 }

@@ -78,3 +78,39 @@ strong {
     font-size: 1.5em;
   }
 }
+
+@media (min-width: 1800px) {
+ .title {
+   font-size: 8em !important;
+ }
+ .reservation {
+   font-size: 3em !important;
+ }
+ .text-R{
+   font-size: 2.5em !important;
+ }
+ h2{
+   font-size: 4em !important;
+ }
+.all-card{
+  height: 600px !important;
+  .information{
+    justify-content: center;
+ .title-name{
+   font-size: 3.4em !important;
+ }
+ .title-description {
+   font-size: 2.8em !important;
+ }
+}
+}
+.title-day{
+  font-size: 3.4em !important;
+}
+.test{
+  width: 40em !important;
+}
+.title-hour{
+  width: 12em;
+  font-size: 2.8em !important;
+}}

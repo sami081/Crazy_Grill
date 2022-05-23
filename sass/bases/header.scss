@@ -5,10 +5,9 @@ header {
   position: fixed;
   background: white;
   z-index: 2;
-  div{
+  div {
     width: 50%;
     display: flex;
-
   }
   nav {
     display: flex;
@@ -26,13 +25,11 @@ header {
   header {
     justify-content: space-between;
 
-    
-
     height: 46px;
     width: 100%;
 
     border-top: solid 1px #72160e;
-    border-bottom: solid 1px #72160e;;
+    border-bottom: solid 1px #72160e;
     .logo {
       width: 5.126em;
       height: 1.392em;
@@ -60,41 +57,45 @@ header {
     }
   }
 }
- @media (min-width: 583px) and (max-width: 1000px){
-   header{
-     height: 58.26px;
-     padding: 0px 10px 0px 10px;
+@media (min-width: 583px) and (max-width: 1000px) {
+  header {
+    right: 0px;
+    left: 0px;
+
+    height: 58.26px;
+    padding: 0px 20px 0px 5px;
   }
 }
 @media (min-width: 1001px) {
   header {
     padding: 5px 15px 5px 15px;
   }
-  
 }
 
 //version desktop
 @media (min-width: 583px) {
   header {
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    // padding-left: 10px !important;
+    // padding-right: 40px !important;
+
     width: 100%;
     // margin-left: 139px;
     // margin-right: 146px;
     .logo {
       width: 5.126em;
-      height: 1.392em
+      height: 1.392em;
     }
     #menu {
       display: none;
     }
     nav {
-     
+      width: 37%;
       ul {
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
         li {
-          width:40%;
+          width: 40%;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -111,9 +112,27 @@ header {
           }
         }
         .trait {
-          border-left: solid 0.02px #72160E;
+          border-left: solid 0.02px #72160e;
           width: 0%;
         }
+      }
+    }
+  }
+}
+@media (min-width: 1800px) {
+  header {
+    height: 80px;
+    justify-content: space-between !important;
+    .logo {
+      height: 3.5em !important;
+      width: 12em !important;
+      
+    }
+    nav{  width: 38% !important;}
+    ul {
+      justify-content: space-between !important;
+      li {
+        font-size: 2em;
       }
     }
   }

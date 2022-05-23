@@ -20,6 +20,7 @@ a {
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
 }
@@ -100,8 +101,10 @@ header nav ul a {
 }
 @media (min-width: 583px) and (max-width: 1000px) {
   header {
+    right: 0px;
+    left: 0px;
     height: 58.26px;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 5px;
   }
 }
 @media (min-width: 1001px) {
@@ -111,7 +114,7 @@ header nav ul a {
 }
 @media (min-width: 583px) {
   header {
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
   }
   header .logo {
@@ -121,9 +124,12 @@ header nav ul a {
   header #menu {
     display: none;
   }
+  header nav {
+    width: 37%;
+  }
   header nav ul {
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   header nav ul li {
     width: 40%;
@@ -143,8 +149,27 @@ header nav ul a {
     border-radius: 5px;
   }
   header nav ul .trait {
-    border-left: solid 0.02px #72160E;
+    border-left: solid 0.02px #72160e;
     width: 0%;
+  }
+}
+@media (min-width: 1800px) {
+  header {
+    height: 80px;
+    justify-content: space-between !important;
+  }
+  header .logo {
+    height: 3.5em !important;
+    width: 12em !important;
+  }
+  header nav {
+    width: 38% !important;
+  }
+  header ul {
+    justify-content: space-between !important;
+  }
+  header ul li {
+    font-size: 2em;
   }
 }
 @media (max-width: 582px) {
@@ -294,6 +319,11 @@ header nav ul a {
 @media only screen and (min-width: 583px) and (max-width: 1024px) {
   .title {
     font-size: 3.3em !important;
+  }
+}
+@media (min-width: 1800px) {
+  .banner {
+    height: 600px !important;
   }
 }
 .restaurant {
@@ -539,7 +569,6 @@ header nav ul a {
     width: 16em !important;
   }
   .div-hourly .hourly {
-    max-width: 900px;
     margin-top: 40px;
     height: 400px;
     display: flex;
@@ -617,6 +646,20 @@ header nav ul a {
 @media (min-width: 2000px) {
   .all-card {
     height: 600px !important;
+  }
+}
+@media (min-width: 1800px) {
+  .div-hourly {
+    height: 600px;
+  }
+  .div-hourly img {
+    height: 85% !important;
+  }
+  .div-hourly .hourly {
+    height: 80% !important;
+  }
+  .div-hourly .hourly-week-all {
+    height: 75% !important;
   }
 }
 footer {
@@ -794,6 +837,49 @@ strong {
 
   a {
     font-size: 1.5em;
+  }
+}
+@media (min-width: 1800px) {
+  .title {
+    font-size: 8em !important;
+  }
+
+  .reservation {
+    font-size: 3em !important;
+  }
+
+  .text-R {
+    font-size: 2.5em !important;
+  }
+
+  h2 {
+    font-size: 4em !important;
+  }
+
+  .all-card {
+    height: 600px !important;
+  }
+  .all-card .information {
+    justify-content: center;
+  }
+  .all-card .information .title-name {
+    font-size: 3.4em !important;
+  }
+  .all-card .information .title-description {
+    font-size: 2.8em !important;
+  }
+
+  .title-day {
+    font-size: 3.4em !important;
+  }
+
+  .test {
+    width: 40em !important;
+  }
+
+  .title-hour {
+    width: 12em;
+    font-size: 2.8em !important;
   }
 }
 .banner-carte {
