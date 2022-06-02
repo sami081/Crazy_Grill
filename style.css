@@ -114,7 +114,7 @@ header nav ul a {
 }
 @media (min-width: 583px) {
   header {
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
   }
   header .logo {
@@ -882,6 +882,31 @@ strong {
     font-size: 2.8em !important;
   }
 }
+@media (max-width: 376px) {
+  .menu .title1 {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 377px) and (max-width: 451px) {
+  .menu .title1 {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 452px) and (max-width: 564px) {
+  .menu .title1 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 565px) and (max-width: 714px) {
+  .menu .title1 {
+    font-size: 1.9em;
+  }
+}
+@media only screen and (min-width: 715px) and (max-width: 902px) {
+  .menu .title1 {
+    font-size: 2.4em;
+  }
+}
 .banner-carte {
   height: 470px;
   background-image: url("./ressources/images/img/banner-carte.jpg");
@@ -1141,6 +1166,7 @@ strong {
 }
 .menu .dishes {
   background: #fce7c0;
+  width: 100%;
 }
 .menu .dishes h2 {
   margin-top: 15px;
@@ -1203,9 +1229,6 @@ strong {
   .menu .trait {
     height: 50px;
     margin-left: 8%;
-  }
-  .menu .title1 {
-    font-size: 1.8em;
   }
   .menu .div-dishes .title2 {
     font-size: 2em;

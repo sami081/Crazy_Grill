@@ -114,3 +114,46 @@ strong {
   width: 12em;
   font-size: 2.8em !important;
 }}
+
+@media (max-width: 376px){
+  .menu{
+  .title1{
+    font-size: 1em;
+  }
+}}
+
+@media only screen and (min-width: 377px) and (max-width: 451px){
+  .menu{
+    .title1{
+      font-size: 1.2em;
+    }
+  }
+}
+@media only screen and (min-width: 452px) and (max-width: 564px){
+  .menu{
+    .title1{
+      font-size: 1.5em;
+    }
+  }
+}
+@media only screen and (min-width: 565px) and (max-width: 714px){
+  .menu{
+    .title1{
+      font-size: 1.9em;
+    }
+  }
+}
+@media only screen and (min-width: 715px) and (max-width: 902px){
+  .menu{
+    .title1{
+      font-size: 2.4em;
+    }
+  }
+}
+// @media only screen and (min-width: 903px) and (max-width: 1200px){
+//   .menu{
+//     .title1{
+//       font-size: 3em;
+//     }
+//   }
+// }
