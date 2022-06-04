@@ -1071,6 +1071,7 @@ strong {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  padding-bottom: 20px;
   align-items: center;
 }
 .menu .all-menu .first {
@@ -1311,6 +1312,39 @@ strong {
   h4 {
     font-size: 1.3em !important;
   }
+}
+.main {
+  background: #fce7c0;
+}
+.main .banner {
+  background-image: url("./ressources/images/img/facade01.jpg");
+  height: 359px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
+}
+.main .banner .title-reservation {
+  width: 90%;
+}
+.main .banner .title-reservation h1 {
+  color: white;
+  background: rgba(0, 0, 0, 0.1882352941);
+  width: 100%;
+  text-align: center;
+}
+.main .contact .adress {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.main .contact .adress img {
+  height: 2em;
+  width: 2em;
+}
+.main .contact .adress .information-adress {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
