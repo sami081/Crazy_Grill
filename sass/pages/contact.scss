@@ -1,3 +1,4 @@
+@media (max-width: 1000px) {
 .contact-section {
   background: #fce7c0;
   .banner {
@@ -8,162 +9,414 @@
     align-items: center;
     // justify-content: center;
     box-shadow: #000000ad 0px 3px 6px;
-    .title-reservation{
-width: 90%;
-  
-    h1 {
-      color: #ffff;
-      background: rgba(0, 0, 0, 0.1882352941);
-      width: 100%;
-      text-align: center;
+    .title-reservation {
+      width: 90%;
+
+      h1 {
+        color: #ffff;
+        background: rgba(0, 0, 0, 0.1882352941);
+        width: 100%;
+        text-align: center;
+      }
     }
   }
-  }
-  .contact{
+  .contact {
     //  height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-.adress{
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  img{
-    margin-top: 10px;
-    height: 40px;
-    width: 40px;
+    .adress {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      img {
+        margin-top: 10px;
+        height: 30px;
+        width: 30px;
+      }
+      .information-adress {
+        color: #72160e;
+        width: 57.3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 132px;
+        h2 {
+          font-family: "cairo-bold";
+          font-size: 22px;
+        }
+        h3 {
+          font-weight: lighter;
+          font-size: 22px;
+          font-family: "cairo";
+        }
+      }
+    }
+    .tel {
+      display: flex;
+      color: #72160e;
+      justify-content: space-evenly;
+      align-items: center;
+      .img {
+        margin-top: 20px;
+        height: 30px;
+        width: 30px;
+      }
+      .tel-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 57.3%;
+        height: 77px;
+        h2 {
+          font-family: "cairo-bold";
+          font-size: 22px;
+        }
+      }
+    }
+    .email {
+      display: flex;
+
+      justify-content: space-evenly;
+      align-items: center;
+      display: flex;
+      color: #72160e;
+      img {
+        margin-top: 15px;
+        width: 40px;
+        height: 40px;
+      }
+      .email-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 57.3%;
+        h2 {
+          font-size: 1.2em;
+          font-family: "cairo-bold";
+        }
+      }
+    }
+    
+      .banner-restaurant-ext {
+        border: #707070 solid 1px;
+        width: 80%;
+        height: 335px;
+        z-index: 0;
+        align-self: center;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    form {
+      transform: translateY(-50px);
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 800px;
+      align-self: center;
+      .div-form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffff !important;
+        input {
+          border-radius: 10px;
+          background: #fce7c0;
+          width: 100%;
+          text-align: center;
+          border: none;
+          color: #72160e;
+        }
+        .message {
+          height: 136px;
+          border-radius: 10px;
+          background: #fce7c0;
+          width: 100%;
+          padding: 10px;
+          color: #72160e;
+        }
+      }
+      .reservation {
+        height: 400px !important;
+      }
+      .contact-information {
+        display: flex;
+        width: 100%;
+        background: #72160e;
+        border-radius: 10px;
+        height: 266px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: #000000ad 0px 3px 6px;
+      }
+      button {
+        box-shadow: #000000ad 0px 3px 6px;
+        background: #f3a007c9;
+        border-radius: 10px;
+        height: 48px;
+        color: #ffff;
+        font-size: 22px;
+        border: none;
+      }
+    }
   }
-  .information-adress{
-    color: #72160E;
-    width: 57.3%;
+  .all-div{height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 132px;
-    h2{
-      font-family: "cairo-bold";
-      font-size: 22px;
-    }
-    h3{
-      font-weight: lighter;
-      font-size: 22px;
-      font-family: "cairo";
-    }
-  }
-  
-}
-.tel{
-  display: flex;
-  color: #72160E;
-  justify-content: space-evenly;
-  align-items: center;
-  img{
-    margin-top: 20px;
-    height: 40px;
-    width: 40px;
-  }
-  .tel-information{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 57.3%;
-    height: 77px;
-    h2{
-      font-family: "cairo-bold";
-      font-size: 22px;
-    }
-  }
-}
-.email{
-  display: flex;
- 
-  justify-content: space-evenly;
-  align-items: center;
-  display: flex;
-  color: #72160E;
-  img{
-    margin-top: 15px;
-    width: 40px;
-    height: 40px;
-  }
-  .email-information{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 57.3%;
-  h2{
-    font-size: 1.2em;
-    font-family: "cairo-bold";
-  }
 }}
-.form-div{
+
+@media (min-width: 1001px) {
+.contact-section {
+  background: #fce7c0;
+  // height: 1300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-.banner-restaurant-ext
-{
-  border: #707070 solid 1px;
-  width: 80%;
-  height: 335px;
-  z-index: 0;
-  img{
-    width: 100%;
-    height: 100%;
-  }}
-}
-form{
-  transform: translateY(-50px);
-  width: 70%;
-  display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 800px;
-  .div-form{
-    width: 80%;
+  .banner {
+    background-image: url("./ressources/images/img/facade01.jpg");
+    height: 410px;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    color: #FFFFFF;
-    input{
-      border-radius: 10px;
-    background: #FCE7C0;
-    width: 100%;
-    text-align: center;
+    // justify-content: center;
+    box-shadow: #000000ad 0px 3px 6px;
+    .title-reservation {
+      width: 90%;
+
+      h1 {
+        color: #ffff;
+        background: rgba(0, 0, 0, 0.1882352941);
+        width: 100%;
+        text-align: center;
+      }
     }
-    .message{
-      height: 136px;
-      border-radius: 10px;
-      background: #FCE7C0;
+  }
+  .contact {
+    height: 1000px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    .contact-inf{
+      width: 60%;
+    }
+    .adress {
+      margin-top: 20px;
+      display: flex;
+      // justify-content: space-evenly;
+      align-items: flex-start;
+      img {
+        margin-top: 10px;
+        height: 40px;
+        width: 40px;
+      }
+      .information-adress {
+        color: #72160e;
+        width: 57.3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 132px;
+        h2 {
+          font-family: "cairo-bold";
+          font-size: 22px;
+        }
+        h3 {
+          font-weight: lighter;
+          font-size: 22px;
+          font-family: "cairo";
+        }
+      }
+    }
+    .tel {
+      display: flex;
+      color: #72160e;
+      // justify-content: space-evenly;
+      align-items: center;
+      img {
+        margin-top: 15px;
+        height: 30px;
+        width: 30px;
+      }
+      .tel-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 57.3%;
+        height: 77px;
+        h2 {
+          font-family: "cairo-bold";
+          font-size: 22px;
+        }
+      }
+    }
+    .email {
+      display: flex;
+
+      // justify-content: space-evenly;
+      align-items: center;
+      display: flex;
+      color: #72160e;
+      img {
+        margin-top: 15px;
+        width: 40px;
+        height: 40px;
+      }
+      .email-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 57.3%;
+        h2 {
+          font-size: 1.2em;
+          font-family: "cairo-bold";
+        }
+      }
+    }
+    
+      .banner-restaurant-ext {
+        border: #707070 solid 1px;
+        width: 31.73%;
+        height: 918px;
+        z-index: 0;
+        align-self: center;
+        order: -1;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    form {
+      transform: translate(-10%, -600px);
       width: 100%;
-      padding: 10px;
+      height: 617px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+    
       
+      align-self: center;
+      .all-div{
+        background: #72160e;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: lcenter;
+        .lastname{
+          order: -1;
+        }
+        .firstname{
+          order: 0;
+        }
+        .email{
+          color: white;
+          order: 1;
+        }
+        .tel{
+           color: white ;
+          order: 2;
+        }
+      }
+      .div-form {
+        width: 40%;
+        display: flex;
+       
+        align-items: center;
+        color: #ffffff;
+        justify-content: space-between;
+        input {
+          border-radius: 10px;
+          background: #fce7c0;
+          width: 73.6%;
+          text-align: center;
+          border: none;
+          color:#72160e;
+        }
+        .message {
+          height: 136px;
+          border-radius: 10px;
+          background: #fce7c0;
+          width: 100%;
+          padding: 10px;
+          color:#72160e;
+          font-size: 1.2em;
+        }
+      }
+      .reservation {
+        height: 400px !important;
+        .reservation-div{
+          width: 100%;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-left: 17%;
+          input{
+            width: 29.85%;
+            color:#72160e;
+          }
+        }
+        .hour-div{
+          flex-direction: column;
+          width: 40%;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-left: 17%;
+        }
+        .people-number{
+          flex-direction: column;
+          width: 40%;
+          align-items: flex-start;
+          transform: translateX(20%);
+          
+        }
+        .message-div{
+          justify-content: space-around;
+          display: flex;
+width: 100%;
+align-items: flex-start;
+.message{
+  width: 80%;
+  padding: 0;
+}
+        }
+      }
+      .contact-information {
+        height: 85px;
+        display: flex;
+        width: 100%;
+        // background: #72160e;
+        // border-radius: 10px;
+        // height: 266px;
+       flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        // box-shadow: #000000ad 0px 3px 6px;
+      }
+      button {
+        box-shadow: #000000ad 0px 3px 6px;
+        background: #f3a007c9;
+        border-radius: 10px;
+        height: 48px;
+        color: #ffff;
+        font-size: 22px;
+        border: none;
+        width: 23.65%;
+        max-width: 120px;
+        transform: translateX(-10%);
+      }
     }
-   
   }
-  .reservation{
-    height: 400px !important;
-  }
-  .contact-information{
-    display: flex;
-    width: 100%;;
-    background: #72160E;
-    border-radius: 10px;
-    height: 266px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: #000000ad 0px 3px 6px;
-  }
-  button{
-    box-shadow: #000000ad 0px 3px 6px;
-    background: #F39F07;
-    border-radius: 10px;
-    height: 48px;
-    color: #ffff;
-    font-size: 22px;
-    border: none;
-  }
+
+  //ordre 
+ 
 }
-  }
-}
+

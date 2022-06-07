@@ -1313,168 +1313,404 @@ strong {
     font-size: 1.3em !important;
   }
 }
-.contact-section {
-  background: #fce7c0;
+@media (max-width: 1000px) {
+  .contact-section {
+    background: #fce7c0;
+  }
+  .contact-section .banner {
+    background-image: url("./ressources/images/img/facade01.jpg");
+    height: 359px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
+  }
+  .contact-section .banner .title-reservation {
+    width: 90%;
+  }
+  .contact-section .banner .title-reservation h1 {
+    color: white;
+    background: rgba(0, 0, 0, 0.1882352941);
+    width: 100%;
+    text-align: center;
+  }
+  .contact-section .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .contact-section .contact .adress {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .contact-section .contact .adress img {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+  }
+  .contact-section .contact .adress .information-adress {
+    color: #72160e;
+    width: 57.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 132px;
+  }
+  .contact-section .contact .adress .information-adress h2 {
+    font-family: "cairo-bold";
+    font-size: 22px;
+  }
+  .contact-section .contact .adress .information-adress h3 {
+    font-weight: lighter;
+    font-size: 22px;
+    font-family: "cairo";
+  }
+  .contact-section .contact .tel {
+    display: flex;
+    color: #72160e;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .contact-section .contact .tel .img {
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+  }
+  .contact-section .contact .tel .tel-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57.3%;
+    height: 77px;
+  }
+  .contact-section .contact .tel .tel-information h2 {
+    font-family: "cairo-bold";
+    font-size: 22px;
+  }
+  .contact-section .contact .email {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    color: #72160e;
+  }
+  .contact-section .contact .email img {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  .contact-section .contact .email .email-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57.3%;
+  }
+  .contact-section .contact .email .email-information h2 {
+    font-size: 1.2em;
+    font-family: "cairo-bold";
+  }
+  .contact-section .contact .banner-restaurant-ext {
+    border: #707070 solid 1px;
+    width: 80%;
+    height: 335px;
+    z-index: 0;
+    align-self: center;
+  }
+  .contact-section .contact .banner-restaurant-ext img {
+    width: 100%;
+    height: 100%;
+  }
+  .contact-section form {
+    transform: translateY(-50px);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+    align-self: center;
+  }
+  .contact-section form .div-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white !important;
+  }
+  .contact-section form .div-form input {
+    border-radius: 10px;
+    background: #fce7c0;
+    width: 100%;
+    text-align: center;
+    border: none;
+    color: #72160e;
+  }
+  .contact-section form .div-form .message {
+    height: 136px;
+    border-radius: 10px;
+    background: #fce7c0;
+    width: 100%;
+    padding: 10px;
+    color: #72160e;
+  }
+  .contact-section form .reservation {
+    height: 400px !important;
+  }
+  .contact-section form .contact-information {
+    display: flex;
+    width: 100%;
+    background: #72160e;
+    border-radius: 10px;
+    height: 266px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
+  }
+  .contact-section form button {
+    box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
+    background: rgba(243, 160, 7, 0.7882352941);
+    border-radius: 10px;
+    height: 48px;
+    color: white;
+    font-size: 22px;
+    border: none;
+  }
+
+  .all-div {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
-.contact-section .banner {
-  background-image: url("./ressources/images/img/facade01.jpg");
-  height: 359px;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
-}
-.contact-section .banner .title-reservation {
-  width: 90%;
-}
-.contact-section .banner .title-reservation h1 {
-  color: white;
-  background: rgba(0, 0, 0, 0.1882352941);
-  width: 100%;
-  text-align: center;
-}
-.contact-section .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.contact-section .contact .adress {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-.contact-section .contact .adress img {
-  margin-top: 10px;
-  height: 40px;
-  width: 40px;
-}
-.contact-section .contact .adress .information-adress {
-  color: #72160E;
-  width: 57.3%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 132px;
-}
-.contact-section .contact .adress .information-adress h2 {
-  font-family: "cairo-bold";
-  font-size: 22px;
-}
-.contact-section .contact .adress .information-adress h3 {
-  font-weight: lighter;
-  font-size: 22px;
-  font-family: "cairo";
-}
-.contact-section .contact .tel {
-  display: flex;
-  color: #72160E;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.contact-section .contact .tel img {
-  margin-top: 20px;
-  height: 40px;
-  width: 40px;
-}
-.contact-section .contact .tel .tel-information {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 57.3%;
-  height: 77px;
-}
-.contact-section .contact .tel .tel-information h2 {
-  font-family: "cairo-bold";
-  font-size: 22px;
-}
-.contact-section .contact .email {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  display: flex;
-  color: #72160E;
-}
-.contact-section .contact .email img {
-  margin-top: 15px;
-  width: 40px;
-  height: 40px;
-}
-.contact-section .contact .email .email-information {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 57.3%;
-}
-.contact-section .contact .email .email-information h2 {
-  font-size: 1.2em;
-  font-family: "cairo-bold";
-}
-.contact-section .contact .form-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.contact-section .contact .form-div .banner-restaurant-ext {
-  border: #707070 solid 1px;
-  width: 80%;
-  height: 335px;
-  z-index: 0;
-}
-.contact-section .contact .form-div .banner-restaurant-ext img {
-  width: 100%;
-  height: 100%;
-}
-.contact-section .contact form {
-  transform: translateY(-50px);
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 800px;
-}
-.contact-section .contact form .div-form {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #FFFFFF;
-}
-.contact-section .contact form .div-form input {
-  border-radius: 10px;
-  background: #FCE7C0;
-  width: 100%;
-  text-align: center;
-}
-.contact-section .contact form .div-form .message {
-  height: 136px;
-  border-radius: 10px;
-  background: #FCE7C0;
-  width: 100%;
-  padding: 10px;
-}
-.contact-section .contact form .reservation {
-  height: 400px !important;
-}
-.contact-section .contact form .contact-information {
-  display: flex;
-  width: 100%;
-  background: #72160E;
-  border-radius: 10px;
-  height: 266px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
-}
-.contact-section .contact form button {
-  box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
-  background: #F39F07;
-  border-radius: 10px;
-  height: 48px;
-  color: white;
-  font-size: 22px;
-  border: none;
+@media (min-width: 1001px) {
+  .contact-section {
+    background: #fce7c0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section .banner {
+    background-image: url("./ressources/images/img/facade01.jpg");
+    height: 410px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
+  }
+  .contact-section .banner .title-reservation {
+    width: 90%;
+  }
+  .contact-section .banner .title-reservation h1 {
+    color: white;
+    background: rgba(0, 0, 0, 0.1882352941);
+    width: 100%;
+    text-align: center;
+  }
+  .contact-section .contact {
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .contact-section .contact .contact-inf {
+    width: 60%;
+  }
+  .contact-section .contact .adress {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .contact-section .contact .adress img {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+  }
+  .contact-section .contact .adress .information-adress {
+    color: #72160e;
+    width: 57.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 132px;
+  }
+  .contact-section .contact .adress .information-adress h2 {
+    font-family: "cairo-bold";
+    font-size: 22px;
+  }
+  .contact-section .contact .adress .information-adress h3 {
+    font-weight: lighter;
+    font-size: 22px;
+    font-family: "cairo";
+  }
+  .contact-section .contact .tel {
+    display: flex;
+    color: #72160e;
+    align-items: center;
+  }
+  .contact-section .contact .tel img {
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+  }
+  .contact-section .contact .tel .tel-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57.3%;
+    height: 77px;
+  }
+  .contact-section .contact .tel .tel-information h2 {
+    font-family: "cairo-bold";
+    font-size: 22px;
+  }
+  .contact-section .contact .email {
+    display: flex;
+    align-items: center;
+    display: flex;
+    color: #72160e;
+  }
+  .contact-section .contact .email img {
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  .contact-section .contact .email .email-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57.3%;
+  }
+  .contact-section .contact .email .email-information h2 {
+    font-size: 1.2em;
+    font-family: "cairo-bold";
+  }
+  .contact-section .contact .banner-restaurant-ext {
+    border: #707070 solid 1px;
+    width: 31.73%;
+    height: 918px;
+    z-index: 0;
+    align-self: center;
+    order: -1;
+  }
+  .contact-section .contact .banner-restaurant-ext img {
+    width: 100%;
+    height: 100%;
+  }
+  .contact-section form {
+    transform: translate(-10%, -600px);
+    width: 100%;
+    height: 617px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: center;
+  }
+  .contact-section form .all-div {
+    background: #72160e;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: lcenter;
+  }
+  .contact-section form .all-div .lastname {
+    order: -1;
+  }
+  .contact-section form .all-div .firstname {
+    order: 0;
+  }
+  .contact-section form .all-div .email {
+    color: white;
+    order: 1;
+  }
+  .contact-section form .all-div .tel {
+    color: white;
+    order: 2;
+  }
+  .contact-section form .div-form {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: space-between;
+  }
+  .contact-section form .div-form input {
+    border-radius: 10px;
+    background: #fce7c0;
+    width: 73.6%;
+    text-align: center;
+    border: none;
+    color: #72160e;
+  }
+  .contact-section form .div-form .message {
+    height: 136px;
+    border-radius: 10px;
+    background: #fce7c0;
+    width: 100%;
+    padding: 10px;
+    color: #72160e;
+    font-size: 1.2em;
+  }
+  .contact-section form .reservation {
+    height: 400px !important;
+  }
+  .contact-section form .reservation .reservation-div {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 17%;
+  }
+  .contact-section form .reservation .reservation-div input {
+    width: 29.85%;
+    color: #72160e;
+  }
+  .contact-section form .reservation .hour-div {
+    flex-direction: column;
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 17%;
+  }
+  .contact-section form .reservation .people-number {
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-start;
+    transform: translateX(20%);
+  }
+  .contact-section form .reservation .message-div {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .contact-section form .reservation .message-div .message {
+    width: 80%;
+    padding: 0;
+  }
+  .contact-section form .contact-information {
+    height: 85px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .contact-section form button {
+    box-shadow: rgba(0, 0, 0, 0.6784313725) 0px 3px 6px;
+    background: rgba(243, 160, 7, 0.7882352941);
+    border-radius: 10px;
+    height: 48px;
+    color: white;
+    font-size: 22px;
+    border: none;
+    width: 23.65%;
+    max-width: 120px;
+    transform: translateX(-10%);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

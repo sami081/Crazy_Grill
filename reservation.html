@@ -71,6 +71,7 @@
      
     
     <div class="contact">
+      <div class="contact-inf">
       <div class="adress">
         <div class="img">
 <img src="./ressources/images/icon/gps.png" alt="marqueur-gps">
@@ -100,48 +101,51 @@
           </div>
 
       </div>
-      <div class="form-div">
+      </div>
+     
       <div class="banner-restaurant-ext">
         <img src="./ressources/images/img//restaurant.jpg" alt="Terrasse-restaurant">
       </div>
       <form action="contact.php">
+        <div class="all-div">
         <div class="contact-information">
-          <div class="div-form">
+          <div class="div-form lastname">
             <label for="lastName">Nom</label>
             <input type="text" id="lastName" name="lastName" required>
           </div>
-          <div class="div-form">
+          <div class="div-form firstname">
             <label for="firstName">Prénom</label>
             <input type="text" id="firstName" name="firstName" required>
           </div>
-          <div class="div-form">
+          <div class="div-form tel">
             <label for="tel">Téléphone</label>
             <input type="tel" id="tel" name="tel" required>
           </div>
-          <div class="div-form">
+          <div class="div-form email">
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
           </div>
 
         </div>
         <div class="contact-information reservation">
-          <div class="div-form">
+          <div class="div-form reservation-div">
             <label for="date">Date de réservation</label>
             <input type="date" id="date" name="date" required>
           </div>
-          <div class="div-form">
+          <div class="div-form hour-div">
             <label for="hour">Heure</label>
             <input type="time" id="hour" name="hour" required>
           </div>
-          <div class="div-form">
-            <label for="number">Nombre de personne</label>
+          <div class="div-form people-number">
+            <label for="number">Nombre de personnes</label>
             <input type="number" id="number" name="number" min="1" max="10" required>
           </div>
-          <div class="div-form">
+          <div class="div-form message-div">
             <label for="message">Message</label>
             <textarea name="message" id="message" cols="30" rows="10" class="message"></textarea>
           </div>
 
+        </div>
         </div>
 <button type="submit">Envoyez</button>
       </form>
