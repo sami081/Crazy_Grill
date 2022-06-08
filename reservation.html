@@ -106,7 +106,7 @@
       <div class="banner-restaurant-ext">
         <img src="./ressources/images/img//restaurant.jpg" alt="Terrasse-restaurant">
       </div>
-      <form action="contact.php">
+      <form  method ="get"action="contact.php">
         <div class="all-div">
         <div class="contact-information">
           <div class="div-form lastname">
@@ -133,8 +133,24 @@
             <input type="date" id="date" name="date" required>
           </div>
           <div class="div-form hour-div">
-            <label for="hour">Heure</label>
-            <input type="time" id="hour" name="hour" required>
+            <label for="hour">Heure
+              <select name="hour" id="hour" required>
+                <option value="hour-select" >
+                  <option value="11" class="color-hour">11:00</option>
+                  <option value="12"class="color-hour">12:00</option>
+                  <option value="13"class="color-hour">13:00</option>
+                  <option value="14"class="color-hour">14:00</option>
+                  <option value="18"class="color-hour">18:00</option>
+                  <option value="19"class="color-hour">19:00</option>
+                  <option value="20"class="color-hour">20:00</option>
+                  <option value="21"class="color-hour">21:00</option>
+                  <option value="22"class="color-hour">22:00</option>
+                  
+                  
+  
+                </option></select>
+            </label>
+            
           </div>
           <div class="div-form people-number">
             <label for="number">Nombre de personnes</label>
