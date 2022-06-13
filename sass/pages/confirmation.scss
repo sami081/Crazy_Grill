@@ -1,0 +1,34 @@
+.confirmation {
+  padding-bottom: 10px;
+  background: #fce7c0;
+  display: flex;
+  justify-content: center;
+  .reservation-bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      text-align: center;
+      color: #72160e;
+      font-size: 1.5em;
+    }
+    .contact {
+      border: solid 1px red;
+      border-radius: 10px;
+      background: #f39f07;
+      color: #ffff;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      p{text-align: center;}
+      h3{text-align: center;}
+    }
+  }
+}
